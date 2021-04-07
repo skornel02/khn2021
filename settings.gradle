@@ -1,0 +1,3 @@
+rootProject.name = 'khn2021'
+include 'frontend'
+include 'backend'

@@ -48,7 +48,7 @@ test {
 task copyStaticWebsite(type: Copy, dependsOn: ':frontend:buildProject') {
     description 'Copy the frontend client into backend service'
     from "$rootDir/frontend/build"
-    into "$rootDir/backend/build/resources/main/public/."
+    into "$rootDir/backend/build/resources/main/static/."
     //exclude 'index.html'
 }
 

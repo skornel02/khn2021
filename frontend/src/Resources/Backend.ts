@@ -1,6 +1,6 @@
-import axios, {AxiosError, AxiosInstance, AxiosRequestConfig} from "axios";
+import axios, { AxiosError, AxiosInstance, AxiosRequestConfig } from "axios";
 
-const ADDR: string ="XXX";
+const ADDR: string = "XXX";
 
 const axiosBaseConfig: AxiosRequestConfig = {
     baseURL: ADDR,
@@ -20,11 +20,7 @@ class Backend {
         });
     }
 
-
-    async sendRequestForData<T, E>(
-        config: AxiosRequestConfig,
-        transformer: (input: T) => E
-    ): Promise<E> {
+    async sendRequestForData<T, E>(config: AxiosRequestConfig, transformer: (input: T) => E): Promise<E> {
         try {
             const response = await this.axios.request<T>(config);
             return transformer(response.data);
@@ -34,9 +30,9 @@ class Backend {
                 if (err.response) {
                     console.log(
                         "Request failed with: " +
-                        axiosError.response?.status +
-                        " data: " +
-                        JSON.stringify(axiosError.response?.data)
+                            axiosError.response?.status +
+                            " data: " +
+                            JSON.stringify(axiosError.response?.data)
                     );
                 } else {
                     console.error("Request failed without response: ", axiosError.message);

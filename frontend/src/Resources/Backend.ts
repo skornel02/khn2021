@@ -1,6 +1,6 @@
 import axios, { AxiosError, AxiosInstance, AxiosRequestConfig } from "axios";
 
-const ADDR: string = "XXX";
+const ADDR: string = process.env.NODE_ENV !== 'production' ? "localhost:8080" : "https://csapat08-versenydonto.nisz.hu";
 
 const axiosBaseConfig: AxiosRequestConfig = {
     baseURL: ADDR,

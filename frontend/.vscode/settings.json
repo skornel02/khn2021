@@ -1,4 +1,5 @@
 {
-    "i18n-ally.indent": 4,
-    "i18n-ally.localesPaths": ["src/Resources/Locales"]
+    "i18n-ally.localesPaths": [
+        "src/translations"
+    ]
 }

@@ -1,0 +1,43 @@
+{
+  "header": {
+    "shortname": "KHN 2021",
+    "login": "Belépés",
+    "logout": "Kilépés"
+  },
+  "title": {
+    "longname": "Kódolj Határok Nélkül 2021",
+    "motto": "Nyílt forráskód, határok nélkül.",
+    "discover": "Miért mi?"
+  },
+  "discover": {
+    "title": "Miért csatlakozz a Nyílt ForrásKollektívához?",
+    "openTitle": "Nyílt",
+    "socialTitle": "Közösségi",
+    "accessibleTitle": "Akadálymentes",
+    "blogTitle": "Blog",
+    "forumTitle": "Fórum",
+    "knowledgeBaseTitle": "Tudástár",
+    "openText": "Az open source egy életérzés, itt pedig minden megtalálható róla.",
+    "socialText1": "Magyarország",
+    "socialText2": "legnagyobb nyílt forráskódú közössége csak arra vár, hogy csatlakozz te is!",
+    "accessibleText": "Számos olyan beállítás található - mint például a nagy kontrasztos megjelenés -, melyekkel mindenki könnyen használhatja a weboldalt.",
+    "blogText": "Ha megosztanád nyílt forráskódú történeteidet ne habozz! Ha pedig inkább olvasnál, van miből válogatni.",
+    "forumText": "Nincs is jobb lehetőség a közösségépítésre, mint a tagokkal való társalgás. A fórumokon ez kötetlenül megtehető!",
+    "knowledgeBaseText": "Átadnád a tudásod? Itt megteheted! A közösség szívesen fogad minden csepp open source bölcsességet."
+  },
+  "dashboard": {
+    "choose": "Válassz ki egy lehetőséget!",
+    "jitsiTitle": "Jitsi",
+    "workerTitle": "Alkalmazotti felület",
+    "newsTitle": "Hírek",
+    "blogTitle": "Blog",
+    "forumTitle": "Fórum",
+    "knowledgeBaseTitle": "Tudástár",
+    "jitsiText": "Beszélgess a barátaiddal!",
+    "workerText": "Munkára készen!",
+    "newsText": "A szolgáltatással kapcsolatos hírek.",
+    "blogText": "Örökítsd meg az életedet!",
+    "forumText": "Lépj kapcsolatba a közösséggel!",
+    "knowledgeBaseText": "Minden leírás egy helyen!"
+  }
+}

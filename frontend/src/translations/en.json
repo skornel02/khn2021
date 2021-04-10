@@ -1,0 +1,43 @@
+{
+  "header": {
+    "shortname": "KHN 2021",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "title": {
+    "longname": "Kódolj Határok Nélkül 2021",
+    "motto": "Open source, without borders.",
+    "discover": "Why us?"
+  },
+  "discover": {
+    "title": "Why join the Open SourceCollective?",
+    "openTitle": "Open",
+    "socialTitle": "Social",
+    "accessibleTitle": "Accessible",
+    "blogTitle": "Blog",
+    "forumTitle": "Forum",
+    "knowledgeBaseTitle": "Knowledge base",
+    "openText": "Open source is a feeling, and you can find everything about it here.",
+    "socialText1": "The",
+    "socialText2": "largest open source community of Hungary can't wait for you to join!",
+    "accessibleText": "Lots of settings can be found - like high contrast mode -, which make it easy for everyone to use the site.",
+    "blogText": "Don't be shy to share your open source story! If you would rather read, there is plenty to choose from.",
+    "forumText": "There is no better way to build a community than to chat with its members. On the forums you can do it with ease!",
+    "knowledgeBaseText": "Want to share your knowledge? You can do it here! The community welcomes every bit of open source wisdom."
+  },
+  "dashboard": {
+    "choose": "Choose an option!",
+    "jitsiTitle": "Jitsi",
+    "workerTitle": "Employee dashboard",
+    "newsTitle": "News",
+    "blogTitle": "Blog",
+    "forumTitle": "Forum",
+    "knowledgeBaseTitle": "Knowledge base",
+    "jitsiText": "Talk with your friends!",
+    "workerText": "Ready to work!",
+    "newsText": "News in connection with the service.",
+    "blogText": "Record your life!",
+    "forumText": "Chat with the community!",
+    "knowledgeBaseText": "Have a question? Look here!"
+  }
+}

@@ -25,7 +25,7 @@
 		class="h-14 transition-opacity items-center flex px-8"
 	>
 		<div class="text-white">
-			<a href="https://youtu.be/IPGLbv4qgkg?t=38" target="_blank">
+			<a href="https://csapat08-versenydonto.nisz.hu/mod/wiki/view.php?id=6" target="_blank">
 				<InformationOutline {size} />
 			</a>
 		</div>

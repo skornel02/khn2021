@@ -7,6 +7,7 @@ import sveltePreprocess from "svelte-preprocess";
 import typescript from "@rollup/plugin-typescript";
 import css from "rollup-plugin-css-only";
 import json from "@rollup/plugin-json";
+import replace from "@rollup/plugin-replace";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -33,6 +34,10 @@ function serve() {
 			process.on("exit", toExit);
 		},
 	};
+}
+
+const replaceObject = production ? {} : {
+	isProduction: production
 }
 
 export default {
@@ -72,6 +77,7 @@ export default {
 			sourceMap: !production,
 			inlineSources: !production,
 		}),
+		replace(replaceObject),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated

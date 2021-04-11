@@ -1,0 +1,15 @@
+s:956:"<p>A tesztmodullal a tanár feleletválasztós, igaz-hamis, párosító és más kérdéseket tartalmazó teszteket állíthat össze.</p>
+
+<p>A tanár a tesztet beállíthatja többször megoldhatóként, mely során a kérdések keverednek vagy adatbankból véletlenszerűen kerülnek az aktuális tesztbe. Megadhat hozzá időkorlátot is.</p>
+
+<p>Az egyes próbálkozások osztályozása az esszékérdések kivételével automatikus, az eredmény pedig bekerül az osztályozónaplóba.</p>
+
+<p>A tesztek használhatók</p>
+
+<ul><li>kurzusvizsgához</li>
+<li>szövegértési feladatokhoz vagy téma összegzéséhez</li>
+<li>gyakorló tesztként korábbi vizsgák anyaga alapján</li>
+<li>azonnali ismeret-ellenőrzéshez</li>
+<li>önellenörzésre</li>
+</ul><div class="helpdoclink"><a href="https://docs.moodle.org/310/hu/mod/quiz/view" class="helplinkpopup"><i class="icon fa slicon-info fa-fw iconhelp icon-pre"></i>További segítség</a></div>
+";

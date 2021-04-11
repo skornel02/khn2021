@@ -1,0 +1,14 @@
+s:1489:"<p>Az adatbázis-tevékenységi modullal a résztvevők tételrekordokat hozhatnak létre, tarthatnak fenn és kereshetnek végig. A tételek szerkezetét a tanár mezőszámként adja meg. A mezőtípusok lehetnek jelölőnégyzetek, választógombok, lenyíló menük, szöveges területek, webcímek, képek és feltöltött állományok.</p>
+
+<p>Megjelenésüket sablonokkal szabályozhatja. Az adatbázis-tevékenységeket kurzusok között előre beállítottként megoszthatja, a tanár pedig tételeket importálhat vagy exportálhat.</p>
+
+<p>Bekapcsolt automatikus adatbázis-kapcsolás esetén sor kerül az egyes tételek kurzuson belüli szavakkal vagy kifejezésekkel való automatikus összekapcsolására.</p>
+
+<p>A tanár engedélyezheti megjegyzések hozzáadását a tételekhez. a tételeket a tanárok és a tanulók értékelhetik (utóbbi esetben: csoporttársi értékelés), az értékelések összegezhetők és az osztályozónaplóba bekerülő végső osztályzattá alakíthatók.</p>
+
+<p>Jellemző alkalmazásai:</p>
+
+<ul><li>Netes hivatkozások, könyvek, könyvszemlék, folyóirat-hivatkozások stb. közösen kialakított gyűjteménye.</li>
+<li>Tanulói fényképek, poszterek, csoporttársi értékelésre szánt honlapok, versek stb. megjelenítése.</li>
+</ul><div class="helpdoclink"><a href="https://docs.moodle.org/310/hu/mod/data/view" class="helplinkpopup"><i class="icon fa slicon-info fa-fw iconhelp icon-pre"></i>További segítség</a></div>
+";

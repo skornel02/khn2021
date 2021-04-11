@@ -1,0 +1,12 @@
+s:1027:"<p>A visszajelzési modullal a tanár különféle kérdéstípusokkal (feleletválasztós, igen-nem, szövegbeviteles) egyedi felméréseket hozhat létre.</p>
+
+<p>A visszajelzés lehet névtelen, az eredmény megtekinthetősége pedig szabályozható. A portál címoldalán megjelenő visszajelzési tevékenységbe nem bejelentkezett felhasználók is bekapcsolódhatnak.</p>
+
+<p>Jellemző alkalmazásai:</p>
+
+<ul><li>Kurzusértékelések a tartalom későbbi résztvevők számára való tökéletesítése érdekében</li>
+<li>Kurzusmodulokra, eseményekrte stb. való feliratkozás lehetővé tétele</li>
+<li>A kurzusválaszték vagy az intézményi politika vendégek általi értékelésének felmérése</li>
+<li>Bántalmazás felmérésére, mely során a tanulók az eseményeket név nélkül bejelenthetik.</li>
+</ul><div class="helpdoclink"><a href="https://docs.moodle.org/310/hu/mod/feedback/view" class="helplinkpopup"><i class="icon fa slicon-info fa-fw iconhelp icon-pre"></i>További segítség</a></div>
+";

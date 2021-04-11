@@ -1,0 +1,9 @@
+s:777:"<p>Ez a beállítás, továbbá az URL állománytípusa és a böngészőben a beágyazás engedélyezése szabja meg az URL megjelenését. Az alábbi lehetőségek közül választhat:</p>
+
+<ul><li>Automatikus - Az adott URL típusához automatikusan kiválasztja a legjobb megjelenítést</li>
+<li>Beágyazás - Az URL az oldalon a navigációs sáv alatt leírásával és az esetleges blokkokkal együtt jelenik meg</li>
+<li>Megnyitás - A böngésző ablakában csak az URL jelenik meg</li>
+<li>Előugró ablakban - Az URL új böngészőablakban, menük vagy címsor nélkül jelenik meg</li>
+<li>Keretben - Az URL a navigációs sáv alatt egy keretben jelenik meg</li>
+<li>Új ablakban - Az URL új böngészőablakban, menükkel és címsorral jelenik meg</li>
+</ul>";

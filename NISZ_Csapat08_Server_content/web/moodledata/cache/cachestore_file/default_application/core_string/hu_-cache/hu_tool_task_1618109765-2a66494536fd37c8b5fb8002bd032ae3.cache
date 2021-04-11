@@ -1,0 +1,26 @@
+a:62:{s:5:"adhoc";s:7:"Alkalmi";s:11:"adhoctaskid";s:35:"Alkalmi feladat azonosítója: {$a}";s:10:"adhoctasks";s:17:"Alkalmi feladatok";s:4:"asap";s:8:"Mielőbb";s:10:"adhocempty";s:25:"Az eseti feladatsor üres";s:14:"adhocqueuesize";s:44:"Az eseti feladatsor {$a} feladatot tartalmaz";s:13:"adhocqueueold";s:87:"A legrégebbi feladat {$a->age} idővel ezelőtt jött létre, ami több mint {$a->max}";s:20:"backtoscheduledtasks";s:33:"Vissza az ütemezett feladatokhoz";s:8:"blocking";s:9:"Zárolás";s:25:"cannotfindthepathtothecli";s:133:"Nincs meg a PHP CLI útvonala. Állítsa be a "PHP CLI útvonalát" a "Portáladminisztráció / Szerver / Rendszerútvonalak" alatt.";s:15:"checkadhocqueue";s:16:"Eseti feladatsor";s:16:"checkcronrunning";s:10:"A cron fut";s:17:"checkmaxfaildelay";s:45:"Hibás maximális feladat miatti késlekedés";s:9:"classname";s:13:"Osztály neve";s:22:"clearfaildelay_confirm";s:116:"Biztosan törli '{$a}' feladat esetén a késedelmet? Ez esetben a feladat a szokásos ütemezéssel zajlik tovább.";s:9:"component";s:11:"Összetevő";s:13:"corecomponent";s:4:"Alap";s:12:"crondisabled";s:119:"A cron ki van kapcsolva, új feladatokra nem kerül sor. A rendszer újbóli bekapcsolásig nem fog helyesen működni.";s:6:"cronok";s:21:"A cron gyakran fut le";s:7:"default";s:8:"Alapeset";s:8:"defaultx";s:14:"Alapeset: {$a}";s:8:"disabled";s:11:"Kikapcsolva";s:13:"disabled_help";s:105:"A kikapcsolt ütemezett feladatokat a cron nem hajtja végre, a CLI-vel azonban kézzel végrehajthatók.";s:16:"edittaskschedule";s:39:"Szerkesztési feladat ütemezése: {$a}";s:12:"enablerunnow";s:65:"Ütemezett feladatokhoz  ‘Végrehajtás most’ engedélyezése";s:17:"enablerunnow_desc";s:370:"Rendszergazdák számára egy ütemezett feladat azonnali végrehajtását engedélyezi, így nem kell kivárni az ütemezés időpontját. A rendszerútvonalakon a  'Path to PHP CLI' (pathtophp) paramétert be kell állítani. A feladatra a webszerveren kerül sor, ezért egyes portálok teljesítménybeli problémák elkerülésére kikapcsolhatják ezt a funkciót.";s:9:"faildelay";s:10:"Késedelem";s:13:"fromcomponent";s:31:"Ettől az összetevőtől: {$a}";s:8:"hostname";s:14:"Gazdagép neve";s:11:"lastruntime";s:17:"Utolsó futtatás";s:11:"lastupdated";s:27:"Utolsó frissítés:  {$a}.";s:11:"nextruntime";s:21:"Következő futtatás";s:3:"pid";s:3:"PID";s:14:"plugindisabled";s:25:"Segédprogram kikapcsolva";s:10:"pluginname";s:32:"Ütemezett feladat beállítása";s:19:"resettasktodefaults";s:49:"Feladatütemezés visszaállítása alaphelyzetre";s:24:"resettasktodefaults_help";s:102:"Elveti a helyi módosításokat és a feladat ütemezését visszaállítja az eredetinek megfelelően";s:12:"runningtasks";s:22:"Jelenleg futó feladat";s:6:"runnow";s:18:"Végrehajtás most";s:8:"runagain";s:16:"Futtatás ismét";s:14:"runnow_confirm";s:139:"Biztosan most kerüljön sor  a(z) ‘{$a}’ végrehajtására?  A feladatra a webszerveren kerül sor, ezért némi időt vehet igénybe.";s:10:"runpattern";s:16:"Minta futtatása";s:9:"scheduled";s:10:"Ütemezett";s:14:"scheduledtasks";s:20:"Ütemezett feladatok";s:28:"scheduledtaskchangesdisabled";s:82:"A Moodle beállítása megakadályozta az ütemezett feladatlista módosítását.";s:7:"started";s:9:"Elkezdett";s:12:"taskdisabled";s:19:"Feladat kikapcsolva";s:12:"taskfailures";s:23:"{$a} feladat sikertelen";s:8:"tasklogs";s:14:"Feladatnaplók";s:14:"tasknofailures";s:24:"Nincs sikertelen feladat";s:15:"taskscheduleday";s:3:"Nap";s:20:"taskscheduleday_help";s:255:"A havi feladatütemezés napja. A mező formátuma azonos a unix cron-éval. Pl.:
+
+* <strong>*</strong> Naponta
+* <strong>*/2</strong> Másnaponként
+* <strong>1</strong> Minden hó elsején
+* <strong>1,15</strong> Minden hó elsején és tizenötödikén";s:21:"taskscheduledayofweek";s:12:"A hét napja";s:26:"taskscheduledayofweek_help";s:238:"A heti feladatütemezés napja. A mező formátuma azonos a unix cron-éval. Pl.:
+
+* <strong>*</strong> Naponta
+* <strong>0</strong> Vasárnaponként
+* <strong>6</strong> Szombatonként
+* <strong>1,5</strong> Minden hétfőn és pénteken";s:16:"taskschedulehour";s:4:"Óra";s:21:"taskschedulehour_help";s:256:"A feladatütemezés órája. A mező formátuma azonos a unix cron-éval. Pl.:
+
+* <strong>*</strong>Óránként
+* <strong>*/2</strong> 2 óránként
+* <strong>2-10</strong> 2 és 10 óra között óránként
+* <strong>2,6. 9</strong> 2-kor, 6-kor és 9-kor";s:18:"taskscheduleminute";s:4:"Perc";s:23:"taskscheduleminute_help";s:298:"A feladatütemezés perce. A mező formátuma azonos a unix cron-éval. Pl.:
+
+* <strong>*</strong>Percenként
+* <strong>*/5</strong> 5 percenként
+* <strong>2-10</strong> óra 2. és 10. perce között percenként (beleértve az adott perceket)
+* <strong>2,6. 9</strong> óra 2., 6. és 9. percekor";s:17:"taskschedulemonth";s:6:"Hónap";s:22:"taskschedulemonth_help";s:238:"A feladatütemezés hónapja. A mező formátuma azonos a unix cron-éval. Pl.:
+
+* <strong>*</strong> Havonta
+* <strong>*/2</strong> Kéthavonta
+* <strong>1</strong> Minden januárban
+* <strong>1,5</strong> Minden januárban és májusban";s:16:"privacy:metadata";s:76:"A Scheduled task configuration segédprogram nem tárol személyes adatokat.";s:8:"viewlogs";s:29:"{$a} naplóinak megtekintése";}

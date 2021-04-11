@@ -1,0 +1,6 @@
+s:256:"<p>The grade type is used to determine the method of grading.</p>
+
+<ul><li>None: the forum is not graded.</li>
+<li>Manual: the forum has to be manually graded by the teacher via the gradebook.</li>
+<li>Rating: use ratings for generating a grade.</li>
+</ul>";

@@ -1,0 +1,11 @@
+a:12:{s:10:"filtername";s:7:"MathJax";s:20:"additionaldelimiters";s:32:"További egyenlőséghatárolók";s:25:"additionaldelimiters_help";s:251:"A MathJax szűrő elemzi a határolók közötti szöveget egyenlőség szempontjából.
+
+A felismert határolók itt hozzáadhatók (pl. az AsciiMath ezt használja `).
+
+A határolók több karakterből állhatnak, ezeket vesszők választhatják el.";s:8:"httpsurl";s:16:"MathJax webcíme";s:13:"httpsurl_help";s:37:"Teljes URL a MathJax könyvtárához.";s:22:"texfiltercompatibility";s:28:"TeX-szűrő kompatibilitása";s:27:"texfiltercompatibility_help";s:174:"A MathJax-szűrő használható a TeX-szűrő helyett.
+
+A TeX-szűrő által támogatott határolókhoz a MathJax az összes egyenletet a TeX-szel "egy sorban" jeleníti meg.";s:12:"localinstall";s:28:"A MathJax helyi telepítése";s:17:"localinstall_help";s:534:"A MathJAX alapbeállítása a MathJAX CDN-verzióját használja, de szükség esetén a MathJAX helyileg is telepíthető.
+
+Ezt indokolhatja a sávszélességgel való takarékoskodás vagy a helyi proxy korlátai.
+
+A MathJAX helyi telepítésének használatához először töltse le a teljes MathJax-könyvtárat a https://www.mathjax.org/ portálról. Ezután telepítse egy webszerverre. Végezetül frissítse a MathJax httpurl és/vagy httpsurl szűrőbeállításait úgy, hogy azok a helyi MathJax.js webcímére mutassanak.";s:15:"mathjaxsettings";s:23:"A MathJAX beállítása";s:20:"mathjaxsettings_desc";s:169:"A MathJAX alapbeállítása a legtöbb felhasználó számára megfelelő, ugyanakkor jól konfigurálható. A standard konfigurációs beállításokat megadhatja itt..";s:16:"privacy:metadata";s:63:"A MathJax segédprogram semmilyen személyes adatot nem tárol.";}

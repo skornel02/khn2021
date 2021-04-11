@@ -1,0 +1,11 @@
+s:941:"<p>A fájl modullal a tanár állomány formájában tehet elérhetővé egy tananyagot. Ahol lehetséges, a fájl  megjelenik a kurzusfelületen, más esetben a tanulóknak felkínálja a letöltést. A fájl magában foglalhat kiegészítő állományokat. Például egy HTML-oldal beágyazott képeket tartalmazhat.</p>
+
+<p>Ne feledje, hogy a tanulóknak számítógépükön megfelelő szoftverre lesz szükségük a fájl megnyitásához.</p>
+
+<p>A fájl használható</p>
+
+<ul><li>Bemutatók megosztására az osztályban</li>
+<li>Miniportál mint tananyag rendelkezésre bocsátására</li>
+<li>Egyes fájlok vázlat formájában való közreadására, így a tanulók is szerkeszthetik, majd osztályozásra leadhatják ezeket.</li>
+</ul><div class="helpdoclink"><a href="https://docs.moodle.org/310/hu/mod/resource/view" class="helplinkpopup"><i class="icon fa slicon-info fa-fw iconhelp icon-pre"></i>További segítség</a></div>
+";

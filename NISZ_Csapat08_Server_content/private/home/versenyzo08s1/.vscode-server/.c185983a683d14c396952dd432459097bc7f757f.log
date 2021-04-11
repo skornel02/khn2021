@@ -1,0 +1,63 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 35486
+
+[03:32:35] Extension host agent started.
+[03:32:35] [127.0.0.1][72b370e2][ExtensionHostConnection] New connection established.
+bash: nem állítható be a terminál folyamatcsoportja (-1): Helytelen ioctl hívás az eszköznek
+bash: nincsen munkakezelés ebben a parancsértelmezőben
+[03:32:35] [127.0.0.1][144a2803][ManagementConnection] New connection established.
+[03:32:35] [127.0.0.1][72b370e2][ExtensionHostConnection] <19030> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[03:32:38] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[03:32:53] [127.0.0.1][144a2803][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:32:54] [127.0.0.1][72b370e2][ExtensionHostConnection] <19030> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[03:32:54] Last EH closed, waiting before shutting down
+[03:32:54] [127.0.0.1][87b68570][ManagementConnection] New connection established.
+[IPC Library: Pty Host]  INFO Listing 1 persistent terminals, 1 total terminals
+[03:32:54] [127.0.0.1][369d8237][ExtensionHostConnection] New connection established.
+[03:32:54] [127.0.0.1][369d8237][ExtensionHostConnection] <19407> Launched Extension Host Process.
+[03:33:02] [127.0.0.1][87b68570][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:33:03] [127.0.0.1][369d8237][ExtensionHostConnection] <19407> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[03:33:03] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[03:33:03] Last EH closed, waiting before shutting down
+[03:33:03] [127.0.0.1][692ed782][ManagementConnection] New connection established.
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[03:33:03] [127.0.0.1][cb2dd8f2][ExtensionHostConnection] New connection established.
+[03:33:03] [127.0.0.1][cb2dd8f2][ExtensionHostConnection] <19551> Launched Extension Host Process.
+[03:33:14] [127.0.0.1][ab4a1314][ManagementConnection] New connection established.
+[03:33:14] [127.0.0.1][9f41c83e][ExtensionHostConnection] New connection established.
+[03:33:14] [127.0.0.1][9f41c83e][ExtensionHostConnection] <19706> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Listing 1 persistent terminals, 1 total terminals
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 0 chars and 1 size events
+[03:33:22] [127.0.0.1][ab4a1314][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:33:23] [127.0.0.1][9f41c83e][ExtensionHostConnection] <19706> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[03:33:23] Cancelling previous shutdown timeout
+[03:33:41] [127.0.0.1][692ed782][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:33:42] [127.0.0.1][cb2dd8f2][ExtensionHostConnection] <19551> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[03:33:42] Last EH closed, waiting before shutting down
+[03:33:42] [127.0.0.1][14a5d233][ManagementConnection] New connection established.
+[IPC Library: Pty Host]  INFO Listing 0 persistent terminals, 0 total terminals
+[03:33:42] [127.0.0.1][f253fb29][ExtensionHostConnection] New connection established.
+[03:33:42] [127.0.0.1][f253fb29][ExtensionHostConnection] <20132> Launched Extension Host Process.
+[03:33:45] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+New EH opened, aborting shutdown
+[03:38:42] New EH opened, aborting shutdown
+[04:02:25] [127.0.0.1][14a5d233][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:02:26] [127.0.0.1][f253fb29][ExtensionHostConnection] <20132> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[04:02:26] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[04:07:26] Last EH closed, shutting down

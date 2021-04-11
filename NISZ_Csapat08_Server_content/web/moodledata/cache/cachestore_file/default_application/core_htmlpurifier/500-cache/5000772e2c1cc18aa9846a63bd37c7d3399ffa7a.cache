@@ -1,0 +1,11 @@
+s:1522:"<p>Külső eszközökkel a Moodle felhasználói más portálokon lévő tananyagokkal és tevékenységekkel léphetnek kapcsolatba. Ilyen lehet egy új tevékenységfajta megjelenése vagy tananyagok elérhetővé válása valamely kiadónál.</p>
+
+<p>A külső eszköz egy példányának beállításához egy LTI-t (tanulási eszközök együttműködését) támogató eszközszolgáltatóra van szükség. Ha talál ilyet, tőle megkaphatja a beállításhoz szükséges adatokat. Emellett használhatja a portál rendszergazdája által beállított eszközöket is.</p>
+
+<p>A külső eszköz eltér a webcímen keresztül elérhető tananyagtól, amennyiben:
+* <strong>Környezetét ismeri</strong> - A külső eszköz adatokhoz jut a kapcsolatot kezdeményező felhasználóról. Ilyen például az intézmény neve, a kurzus-azonosító, a felhasználó azonosítója, neve stb.
+* <strong>Beépül</strong> - A külső eszköz támogatja a tevékenységgel összefüggő osztályzatok olvasását, frissítését és törlését. A jövőben további beépülési lehetőségek megjelenése várható..
+* <strong>Biztonságos</strong> - Megbízhatónak feltételezett kapcsolat létesül az eszközszolgáltató és a Moodle ezen példánya között, ami biztonságos kommunikációs csatornát nyit meg közöttük.</p>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/310/hu/mod/lti/view" class="helplinkpopup"><i class="icon fa slicon-info fa-fw iconhelp icon-pre"></i>További segítség</a></div>
+";

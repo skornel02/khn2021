@@ -1,0 +1,9 @@
+s:831:"<p>Az összegző típus azt szabja meg, hogy az értékelések milyen kombinációban alakítják ki az osztályozónaplóban a végső osztályzatot.</p>
+
+<ul><li>Értékelések átlaga - Az összes értékelés számtani közepe</li>
+<li>Értékelések száma - Az értékelt elemek száma lesz a végső osztályzat. A végösszeg nem lehet magasabb, mint a tevékenységre adható maximális pontszám.</li>
+<li>Maximum - A legmagasabb értékelés lesz a végső osztályzat.</li>
+<li>Minimum - A legalacsonyabb értékelés lesz a végső osztályzat.</li>
+<li>Összeg - Az összes értékelés összeadódik. A végösszeg nem lehet magasabb, mint a tevékenységre adható maximális pontszám.</li>
+</ul><p>Ha a "Nincs értékelés" van kiválasztva, akkor a tevékenység nem fog megjelenni az osztályozónaplóban.</p>
+";

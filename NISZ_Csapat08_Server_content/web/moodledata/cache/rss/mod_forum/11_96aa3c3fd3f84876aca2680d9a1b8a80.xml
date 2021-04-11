@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Bejelentések</title>
+    <link>https://csapat08-versenydonto.nisz.hu/mod/forum/view.php?f=11</link>
+    <description></description>
+    <generator>Moodle</generator>
+    <language>en</language>
+    <copyright>(c) 2021 Kódolj Határok Nélkül! 2021</copyright>
+    <image>
+      <url>https://csapat08-versenydonto.nisz.hu/theme/image.php/moove/core/1618113721/i/rsssitelogo</url>
+      <title>moodle</title>
+      <link>https://csapat08-versenydonto.nisz.hu</link>
+      <width>140</width>
+      <height>35</height>
+    </image>
+    <item>
+      <title>Open Source Windows?</title>
+      <link>https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=5</link>
+      <pubDate>Sun, 11 Apr 2021 06:16:49 GMT</pubDate>
+      <description>Ka Avar szerint. &amp;nbsp;&lt;p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;text-align:left;&quot;&gt;Mit gondoltok erről?&lt;/p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=5</guid>
+    </item>
+    <item>
+      <title>RSS!</title>
+      <link>https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=4</link>
+      <pubDate>Sun, 11 Apr 2021 00:02:50 GMT</pubDate>
+      <description>destoyer of the worlds The two inch szerint. &amp;nbsp;&lt;p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;text-align:left;&quot;&gt;Teszt üzenet, miután elkészült az RSS!&lt;/p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=4</guid>
+    </item>
+    <item>
+      <title>Első bejelentés!</title>
+      <link>https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=3</link>
+      <pubDate>Sun, 11 Apr 2021 00:02:36 GMT</pubDate>
+      <description>destoyer of the worlds The two inch szerint. &amp;nbsp;&lt;p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;text-align:left;&quot;&gt;Elkészült a hírekre szolgáló fórum! &lt;/p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://csapat08-versenydonto.nisz.hu/mod/forum/discuss.php?d=3</guid>
+    </item>
+  </channel>
+</rss>

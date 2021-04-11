@@ -1,0 +1,431 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'hvp', language 'hu', version '3.10'.
+ *
+ * @package     hvp
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['action'] = 'Művelet';
+$string['addedandupdatedpp'] = '{$a->%new} új H5P könyvtár hozzáadva és  {$a->%old} régebbi frissítve.';
+$string['addedandupdatedps'] = '{$a->%new} új H5P könyvtár hozzáadva és  {$a->%old} régebbi frissítve.';
+$string['addedandupdatedsp'] = '{$a->%new} új H5P könyvtár hozzáadva és  {$a->%old} régebbi frissítve.';
+$string['addedandupdatedss'] = '{$a->%new} új H5P könyvtár hozzáadva és  {$a->%old} régebbi frissítve.';
+$string['addednewlibraries'] = '{$a->%new} új H5P könyvtár hozzáadva.';
+$string['addednewlibrary'] = '{$a->%new} új H5P könyvtár hozzáadva.';
+$string['additionalinfo'] = 'További információ';
+$string['additionallicenseinfo'] = 'További információk a licencről';
+$string['addlibraries'] = 'Könyvtárak hozzáadása';
+$string['ajaxfailed'] = 'Adatok betöltése sikertelen.';
+$string['anunexpectedsave'] = 'Váratlan esemény történt. Nem sikerült elmenteni a tartalmat.';
+$string['attribution'] = 'Nevezd meg! 4.0';
+$string['attributionnc'] = 'Nevezd meg! - Ne add el! 4.0';
+$string['attributionncnd'] = 'Nevezd meg! - Ne add el! - Ne változtasd! 4.0';
+$string['attributionncsa'] = 'Nevezd meg! - Ne add el! - Így add tovább!  4.0';
+$string['attributionnd'] = 'Nevezd meg! - Ne változtasd!  4.0';
+$string['attributionsa'] = 'Nevezd meg! - Így add tovább! 4.0';
+$string['author'] = 'Szerző';
+$string['authorcomments'] = 'Szerzői megjegyzések';
+$string['authorcommentsdescription'] = 'Megjegyzések a tartalomszerkesztő részére (ez a szöveg nem jelenik meg a szerzői jogi információk között)';
+$string['authorname'] = 'Szerző neve';
+$string['authorrole'] = 'Szerző szerepe';
+$string['by'] = 'által';
+$string['cancellabel'] = 'Mégse';
+$string['ccattribution'] = 'Nevezd meg! (CC BY)';
+$string['ccattributionnc'] = 'Nevezd meg! - Ne add el! (CC BY-NC)';
+$string['ccattributionncnd'] = 'Nevezd meg! - Ne add el! - Ne változtasd! (CC BY-NC-ND)';
+$string['ccattributionncsa'] = 'Nevezd meg! - Ne add el! - Így add tovább! (CC BY-NC-SA)';
+$string['ccattributionnd'] = 'Nevezd meg! - Ne változtasd! (CC BY-ND)';
+$string['ccattributionsa'] = 'Nevezd meg! - Így add tovább! (CC BY-SA)';
+$string['ccpdd'] = 'Közkincs (CC0)';
+$string['ccpdm'] = 'Közkincs-jel (PDM)';
+$string['changedby'] = 'Módosította';
+$string['changedescription'] = 'A módosítás leírása';
+$string['changelog'] = 'Változások';
+$string['changeplaceholder'] = 'Fotó megvágva, szöveg megváltoztatva stb.';
+$string['close'] = 'Bezárás';
+$string['completionpass'] = 'Megfelelt osztályzat előírása';
+$string['completionpass_help'] = 'Ha engedélyezve van, akkor ez a tevékenység akkor tekinthető teljesítettnek, ha a tanuló valamilyen (a H5P tevékenység beállításainak Osztályzat menüpontjában meghatározottak szerint) megfeleltnek minősülő osztályzatot kap.';
+$string['completionpassdesc'] = 'Ennek a tevékenységnek a teljesítéséhez a tanulónak egy megfeleltnek minősülő osztályzatot kell elérnie';
+$string['confirmdialogbody'] = 'Erősítse meg a folytatáshoz! A művelet nem visszafordítható.';
+$string['confirmdialogheader'] = 'Művelet megerősítése';
+$string['confirmlabel'] = 'Megerősítés';
+$string['connectionlost'] = 'A kapcsolat megszakadt. Az eredmények mentésére és elküldésére a kapcsolat helyreállása után kerül sor.';
+$string['connectionreestablished'] = 'A kapcsolat helyreállt.';
+$string['contentchanged'] = 'A tartalom változott az utolsó használat óta.';
+$string['contentcopied'] = 'Tartalom a vágólapra másolva';
+$string['contentstatefrequency'] = 'Tartalomállapot mentésének gyakorisága';
+$string['contentstatefrequency_help'] = 'Másodpercekben megadva az automatikus mentés gyakorisága. Növelje a számot, ha problémát okoz a sok ajax request.';
+$string['contenttype'] = 'Tartalomtípus';
+$string['contenttypecacheheader'] = 'Tartalomtípus gyorsítótára';
+$string['copyright'] = 'Felhasználási feltételek';
+$string['copyrightinfo'] = 'Szerzői jogi tájékoztatás';
+$string['copyrightstring'] = 'Szerzői jog';
+$string['copyrighttitle'] = 'A tartalomhoz kapcsolódó szerzői jogi tájékoztatás megtekintése';
+$string['couldnotcopy'] = 'Az állomány másolása sikertelen.';
+$string['couldnotparsejsonfromzip'] = 'A(z) %fileName csomag JSON része nem értelmezhető';
+$string['couldnotparsepostdata'] = 'A post-adatok nem értelmezhetők';
+$string['couldnotreadfilefromzip'] = 'A(z) %fileName állománya nem olvasható';
+$string['couldnotsave'] = 'Az állomány mentése sikertelen.';
+$string['create'] = 'Létrehozás';
+$string['creativecommons'] = 'Creative Commons';
+$string['ctcachebuttonlabel'] = 'Tartalomtípus gyorsítótárának frissítése';
+$string['ctcacheconnectionfailed'] = 'Sikertelen kommunikáció a H5P Központtal. Próbálja meg később.';
+$string['ctcachedescription'] = 'A tartalomtípus gyorsítótárának naprakészen tartása biztosítja a legújabb könyvtárak megtekintését, letöltését és használatát. Ez nem azonos a könyvtárak frissítésével.';
+$string['ctcachelastupdatelabel'] = 'Utolsó frissítés';
+$string['ctcacheneverupdated'] = 'Soha';
+$string['ctcachenolibraries'] = 'Nem érkeztek tartalomtípusok a H5P Központból. Próbálja meg később.';
+$string['ctcachesuccess'] = 'A könyvtár gyorsítótára sikeresen frissítve!';
+$string['ctcachetaskname'] = 'Könyvtár gyorsítótárának frissítése';
+$string['currentpage'] = '$current / $total oldal';
+$string['dataviewreportlabel'] = 'Válaszok megtekintése';
+$string['date'] = 'Dátum';
+$string['disablefileextensioncheck'] = 'Állománykiterjesztés ellenőrzésének kikapcsolása';
+$string['disablefileextensioncheckwarning'] = 'Figyelem! Az állománykiterjesztés ellenőrzése kikapcsolásának biztonsági következményei lehetnek, mivel lehetővé teszi php állományok feltöltését. Így lehetővé válik az esetleges támadók számára, hogy a portálon kártékony kódokat futtassanak. Győződjön meg arról, hogy pontosan tudja, mit is tölt fel!';
+$string['disablefullscreen'] = 'Teljes képernyős mód kikapcsolása';
+$string['disablehubconfirmationmsg'] = 'Még mindig engedélyezi a H5P Központot?';
+$string['disablehubdescription'] = 'Erősen javasolt e lehetőség engedélyezése. A H5P Központ egyszerű felületet biztosít az új tartalomtípusok beszerzéséhez és a meglévő tartalomtípusok naprakészen tartásához. A jövőben a tartalom megosztását és újra felhasználását is megkönnyíti. Ha ez a beállítás le van tiltva, a tartalomtípusokat fájlfeltöltési űrlapokon keresztül kell telepíteni és frissíteni.';
+$string['displayoptionalwaysshow'] = 'Mindig megjelenít';
+$string['displayoptionauthoroff'] = 'Szerző által felügyelve, alapértelmezetten kikapcsolva';
+$string['displayoptionauthoron'] = 'Szerző által beállított, alapértelmezetten bekapcsolva';
+$string['displayoptiondownloadalways'] = 'Mindig';
+$string['displayoptiondownloadnever'] = 'Soha';
+$string['displayoptiondownloadpermission'] = 'Csak akkor, ha a felhasználó jogosult H5P exportra';
+$string['displayoptionnevershow'] = 'Soha nem mutat';
+$string['displayoptionpermissions'] = 'Csak akkor jelenik meg, ha a felhasználó jogosult H5P exportra';
+$string['displayoptionpermissionsembed'] = 'Csak akkor jelenik meg, ha a felhasználó jogosult H5P tartalom beillesztésére';
+$string['displayoptions'] = 'Beállítások megjelenítése';
+$string['download'] = 'Letöltés';
+$string['downloadfailed'] = 'A kért könyvtár letöltése sikertelen.';
+$string['downloadtitle'] = 'A tartalom letöltése H5P állományként';
+$string['editor'] = 'Szerkesztő';
+$string['emailconfirmbody'] = 'Kedves {$a->username},
+
+Köszönjük a(z) {$a->coursename} kurzus {$a->hvpname} elemére adott válaszait.
+
+Ez az üzenet igazolja, hogy a válaszait elmentettük.
+
+Ez a H5P modul elérhető a(z) {$a->hvpurl} címen.';
+$string['emailconfirmsmall'] = 'Köszönjük a(z) {$a->hvpname} elemre adott válaszokat\\';
+$string['emailconfirmsubject'] = 'Leadás visszaigazolása: {$a->hvpname}';
+$string['emailnotifybody'] = 'Kedves {$a->username},
+
+{$a->studentname} teljesítette a(z) \'{$a->hvpname}\' modult ({$a->hvpurl}) a(z) \'{$a->coursename}\' kurzusban.
+
+Próbálkozását ellenőrizheti a(z) {$a->hvpreporturl} címen.';
+$string['emailnotifysmall'] = '{$a->studentname} befejezte a(z) {$a->hvpname} modult. Megtekinthető a {$a->hvpreporturl} címen.';
+$string['emailnotifysubject'] = '{$a->studentname} befejezte a(z) {$a->hvpname} modult.';
+$string['embed'] = 'Beágyazás';
+$string['embedloginfailed'] = 'Nem engedélyezett ennek a tartalomnak a megtekintése. Próbáljon meg bejelentkezni.';
+$string['embedtitle'] = 'Beágyazott kód megtekintése';
+$string['empty'] = 'Nincs találat';
+$string['enableabout'] = 'A H5P gombról';
+$string['enablecopyright'] = 'Szerzői jog gombja';
+$string['enabledlrscontenttypes'] = 'LRS-függő tartalomtípusok engedélyezése';
+$string['enabledlrscontenttypes_help'] = 'Lehetővé teszi olyan tartalomtípusok használatát, amelyek tanulási adattárat használnak a megfelelő működéshez, mint amilyen például a kérdőív tartalomtípus.';
+$string['enabledownload'] = 'Letöltés engedélyezése';
+$string['enableembed'] = 'Beágyazás gombja';
+$string['enableframe'] = 'Műveletsáv és keret megjelenítése';
+$string['enablehublabel'] = 'H5P Központ használata';
+$string['enablejavascript'] = 'Kapcsolja be a JavaScriptet!';
+$string['enablesavecontentstate'] = 'Tartalom állapotának mentése';
+$string['enablesavecontentstate_help'] = 'Az interaktív tartalom állapotának automatikus mentése minden felhasználó esetén. Ez azt jelenti, hogy a felhasználó onnan folytathatja, ahol félbehagyta.';
+$string['failedtodownloadh5p'] = 'A kért H5P letöltése sikertelen.';
+$string['fileexceedsmaxsize'] = 'A csomag egyik állományának mérete meghaladja a maximálisan engedélyezett értéket (%file %used > %max).';
+$string['filenotfoundonserver'] = 'Az állomány nem található a szerveren. Ellenőrizze a feltöltési beállításokat.';
+$string['filenotimage'] = 'Az állomány nem kép.';
+$string['filetypenotallowed'] = 'Nem engedélyezett állománytípus.';
+$string['finished'] = 'Kész';
+$string['fullscreen'] = 'Teljes képernyő';
+$string['gpl'] = 'Általános Nyilvános Licenc (GNU) v3';
+$string['gradetopassmustbeset'] = 'A teljesítéshez szükséges osztályzat nem lehet nulla, mivel ennek a H5P tevékenységnek a teljesítéséhez a tanulónak valamilyen megfeleltnek minősülő osztályzatot kall kapnia. Állítson be másik értéket.';
+$string['gradetopassnotset'] = 'Ennek a H5P tevékenységnek a teljesítéséhez még nincs beállítva előírt osztályzat. A H5P tevékenység beállításainak Osztályzat menüpontjában állíthat be egyet.';
+$string['h5pfile'] = 'H5P állomány';
+$string['h5ptitle'] = 'Még több izgalmas tartalomért látogasson el a H5P.org portálra!';
+$string['hide'] = 'Elrejt';
+$string['hideadvanced'] = 'Részletes beállítások elrejtése';
+$string['hubcommunicationdisabled'] = 'A H5P Központtal való kommunikáció lekapcsolva, mert egy vagy több H5P követelmény nem teljesült.';
+$string['hubisdisabled'] = 'A H5P Központ ki van kapcsolva. Újra engedélyezhető a H5P beállításai között.';
+$string['hubisdisableduploadlibraries'] = 'A probléma megoldásáig a H5P Központ le van kapcsolva. A könyvtárak továbbra is feltölthetők a "H5P Libraries" oldalon keresztül.';
+$string['hubsettingsheader'] = 'Tartalomtípusok';
+$string['hvp:addinstance'] = 'Új H5P tevékenység hozzáadása';
+$string['hvp:emailconfirmsubmission'] = 'Beküldés visszaigazolásának kérése';
+$string['hvp:emailnotifysubmission'] = 'Visszaigazolás megjelenítése a próbálkozás benyújtásakor';
+$string['hvp:getcachedassets'] = 'Tárolt H5P-tartalmak behozása';
+$string['hvp:getembedcode'] = 'H5P beillesztési kód megjelenítése, ha a \'jogosultsággal ellenőrizve\' opció be van állítva';
+$string['hvp:getexport'] = 'H5P állomány letöltése, ha a \'jogosultsággal ellenőrizve\' opció be van állítva';
+$string['hvp:installrecommendedh5plibraries'] = 'A H5P.org által ajánlott, új és biztonságos H5P tartalmak telepítése';
+$string['hvp:manage'] = 'Meglévő H5P-tevékenységek szerkesztése';
+$string['hvp:restrictlibraries'] = 'Elérés szűkítése egyes H5P tartalomtípusokra';
+$string['hvp:savecontentuserdata'] = 'H5P-tartalom felhasználói adatainak mentése';
+$string['hvp:saveresults'] = 'H5P-tartalom eredményének mentése';
+$string['hvp:updatelibraries'] = 'H5P könyvtár verziójának frissítése';
+$string['hvp:userestrictedlibraries'] = 'Korlátozott H5P könyvtárak használata';
+$string['hvp:view'] = 'H5P tevékenységek megtekintése és használata';
+$string['hvp:viewallresults'] = 'Minden befejezett H5P-tevékenység eredményének megtekintése';
+$string['hvp:viewresults'] = 'H5P-tartalom eredményének megtekintése';
+$string['installdenied'] = 'Nincs jogosultsága tartalomtípusok telepítésére. Vegye fel a kapcsolatot portálja rendszergazdájával.';
+$string['installedlibraries'] = 'Telepített könyvtárak';
+$string['intro'] = 'Bemutatkozás';
+$string['invalidaudioformat'] = 'Érvénytelen hangállomány-formátum. Az mp3 és a wav formátum használható.';
+$string['invalidcontentfolder'] = 'Érvénytelen mappa';
+$string['invalidcontenttype'] = 'A kiválasztott tartalomtípus érvénytelen.';
+$string['invalidfieldtype'] = 'Érvénytelen mezőtípus.';
+$string['invalidfile'] = '"{$a->%filename}" állományt nem használhat. Csak a következő kiterjesztésű állományok engedélyezettek: {$a->%files-allowed}.';
+$string['invalidh5ppost'] = 'A feltöltött H5P nem elérhető.';
+$string['invalidimageformat'] = 'Érvénytelen képállomány-formátum. Használható formátumok: jpg, png és gif.';
+$string['invalidlanguagefile'] = 'Érvénytelen {$a->%file} nyelvi állomány a(z) {$a->%library} könyvtárban.';
+$string['invalidlanguagefile2'] = 'A(z)  {$a->%name} könyvtárban érvénytelen {$a->%languageFile} nyelvi állomány található.';
+$string['invalidlibrary'] = 'Érvénytelen könyvtár';
+$string['invalidlibrarydata'] = 'A(z) {$a->%library} könyvtárban érvénytelen adat van megadva {$a->%property} esetén.';
+$string['invalidlibrarydataboolean'] = 'A(z) {$a->%library} könyvtárban érvénytelen adat van megadva {$a->%property} esetén.  Logikai adattípust használjon.';
+$string['invalidlibraryname'] = 'Érvénytelen könyvtárnév: {$a->%name}';
+$string['invalidlibrarynamed'] = 'A tartalomban használt {$a->%library} H5P könyvtár érvénytelen.';
+$string['invalidlibraryoption'] = 'Érvénytelen {$a->%option} beállítás a(z) {$a->%library} könyvtárban.';
+$string['invalidlibraryproperty'] = 'A(z) {$a->%library} könyvtárban lévő {$a->%property} tulajdonság olvasása sikertelen.';
+$string['invalidmainjson'] = 'Hiányzik egy érvényes fő h5p.json állomány.';
+$string['invalidmultiselectoption'] = 'A kiválasztott opció érvénytelen.';
+$string['invalidparameters'] = 'Érvénytelen paraméterek.';
+$string['invalidselectoption'] = 'A kiválasztott opció érvénytelen.';
+$string['invalidsemanticsjson'] = 'A(z) {$a->%name} könyvtárban érvénytelen semantics.json állomány található.';
+$string['invalidsemanticstype'] = 'Belső H5P hiba: ismeretlen "{$a->@type}" tartalomtípus a szemantikában. A tartalom törlődik!';
+$string['invalidstring'] = 'A megadott karakterlánc a szemantikában lévő reguláris kifejezés szerint érvénytelen. (érték: "{$a->%value}", reguláris kifejezés: "{$a->%regexp}")';
+$string['invalidtoken'] = 'Érvénytelen biztonsági vezérjel.';
+$string['invalidvideoformat'] = 'Érvénytelen videoállomány-formátum. Használható: mp4 és webm.';
+$string['invalidxapiresult'] = 'A benyújtott tartalom és felhasználói azonosító párosa nem hozott xAPI eredményt.';
+$string['javascriptloading'] = 'Várakozás a JavaScriptre...';
+$string['libraries'] = 'H5P könyvtárak';
+$string['librarydirectoryerror'] = 'A könyvtár nevének egyeznie kell: machineName vagy machineName-majorVersion.minorVersion (a library.json -ból). (Könyvtár: {$a->%directoryName} , machineName: {$a->%machineName}, majorVersion: {$a->%majorVersion}, minorVersion: {$a->%minorVersion})';
+$string['librarylistactions'] = 'Műveletek';
+$string['librarylistinstancedependencies'] = 'Függőségek';
+$string['librarylistinstances'] = 'Példányok';
+$string['librarylistlibrarydependencies'] = 'Könyvtárfüggőségek';
+$string['librarylistrestricted'] = 'Korlátozott';
+$string['librarylisttitle'] = 'Cím';
+$string['librarynotselected'] = 'Válasszon ki egy tartalomtípust.';
+$string['license'] = 'Licensz';
+$string['licenseCC010'] = 'CC0 1.0 Általános (CC0 1.0) Közkincs Felajánlás';
+$string['licenseCC010U'] = 'CC0 1.0 Általános';
+$string['licenseCC10'] = '1.0 Általános';
+$string['licenseCC20'] = '2.0 Általános';
+$string['licenseCC25'] = '2.5 Általános';
+$string['licenseCC30'] = '3.0 Eredeti';
+$string['licenseCC40'] = '4.0 Nemzetközi';
+$string['licenseGPL'] = 'Általános Közkincs Licenc';
+$string['licenseV1'] = '1. változat';
+$string['licenseV2'] = '2. változat';
+$string['licenseV3'] = '3. változat';
+$string['licensee'] = 'Jogosult';
+$string['licenseextras'] = 'Licenc extrák';
+$string['licenseversion'] = 'Licencváltozat';
+$string['loadingdata'] = 'Adatok betöltése.';
+$string['lookforupdates'] = 'H5P frissítések keresése';
+$string['maximumgrade'] = 'Maximális osztályzat';
+$string['maximumgradeerror'] = 'A tevékenységre kapható maximális pontszámhoz adjon meg egy érvényes pozitív számot.';
+$string['maxpostsizetoosmall'] = 'A php post maximális mérete meglehetősen kicsi. A jelenlegi beállításokkal {$a->%number}MB-nál nagyobb állományok nem tölthetők fel. Ez problémát jelenthet H5P tartalmak, képek és videók feltöltésekor. Javasolt a méret 5MB fölé emelése.';
+$string['maxscore'] = 'Maximális pontszám';
+$string['maxuploadsizetoosmall'] = 'A php feltöltések maximális mérete meglehetősen kicsi. A jelenlegi beállításokkal {$a->%number}MB-nál nagyobb állományok nem tölthetők fel. Ez problémát jelenthet H5P tartalmak, képek és videók feltöltésekor. Javasolt a méret 5MB fölé emelése.';
+$string['messageprovider:confirmation'] = 'Saját H5P leadásainak visszaigazolása';
+$string['messageprovider:submission'] = 'Értesítés H5P leadásokról';
+$string['missingcontentfolder'] = 'Hiányzik egy érvényes mappa';
+$string['missingcontentuserdata'] = 'Hiba: a felhasználó adatai nem találhatóak.';
+$string['missingcoreversion'] = 'A rendszer nem tudta telepíteni a(z)  <em>{$a->%component}</em> összetevőt a csomagból. A H5P segédprogram újabb verziója szükséges. A portál jelenleg {$a->%current} verziót használ, a szükséges verzió {$a->%required} vagy magasabb. Frissítsen, majd próbálja meg újból.';
+$string['missingdependency'] = 'Hiányzó függőség: {$a->@dep}';
+$string['missinglibrary'] = 'Hiányzik a szükséges {$a->@library} könyvtár';
+$string['missinglibraryfile'] = 'A(z) "{$a->%file}" állomány hiányzik a(z) "{$a->%name}" könyvtárból';
+$string['missinglibraryjson'] = 'Nem található érvényes json formátumú  library.json állomány a(z) {$a->%name} könyvtárhoz';
+$string['missinglibraryproperty'] = 'A szükséges {$a->%property} tulajdonság hiányzik innen: {$a->%library}';
+$string['missingmbstring'] = 'A H5P megfelelő működéséhez szükséges mbstring php kiterjesztés nincs betöltve.';
+$string['missingparameters'] = 'Hiányzó paraméterek';
+$string['missinguploadpermissions'] = 'A feltöltött állomány tartalmazhatja a könyvtárakat, de Ön nem jogosult új könyvtárakat feltölteni. Forduljon a rendszergazdához!';
+$string['modulename'] = 'Interaktív tartalom';
+$string['modulename_help'] = 'A H5P tevékenységmodul segítségével olyan interaktív tartalmak hozhatók létre, mint interaktív videók, kérdéssorok, fogd és vidd feladatok, feleletválasztós kérdések, prezentációk és még sok egyéb.
+
+Szerkesztésen túlmenően a H5P állományok importálhatók és exportálhatók a tartalmak hatékony újrafelhasználásához és megosztásához.
+
+A felhasználók közötti interakciók és a pontozások xAPI-val követhetők, és a Moodle osztálynaplón keresztül érhetők el.
+
+Egy .h5p fájl feltöltésével lehet interaktív tananyagot hozzáadni, melyek létrehozhatók és letölthetők a h5p.org oldalról.';
+$string['modulenameplural'] = 'Interaktív tartalmak';
+$string['nextpage'] = 'Következő oldal';
+$string['noanswersubmitted'] = 'Ez a felhasználó még nem adott le egyetlen választ sem a H5P-hez';
+$string['nocontent'] = 'A content.json állomány nem található vagy nem dolgozható fel.';
+$string['nocontenttype'] = 'Nincs tartalomtípus meghatározva.';
+$string['nocopyright'] = 'Nincs elérhető szerzői jogi információ a tartalomhoz.';
+$string['nodata'] = 'Nincs a feltételeknek megfelelő adat.';
+$string['noextension'] = 'A feltöltött állomány nem érvényes HTML5 csomag (nem .h5p kiterjesztésű).';
+$string['noh5ps'] = 'Nincs elérhető interaktív tartalom a kurzushoz.';
+$string['nojson'] = 'A fő h5p.json állomány érvénytelen.';
+$string['nombstringexteension'] = 'A H5P megfelelő működéséhez szükséges mbstring php kiterjesztés nincs betöltve.';
+$string['noparameters'] = 'Nincsenek paraméterek';
+$string['noparse'] = 'Nem sikerült feldolgozni a fő h5p.json állományt.';
+$string['nopermissiontogettranslations'] = 'Nincs engedélye fordítások telepítésére.';
+$string['nopermissiontorestrict'] = 'Nem jogosult a könyvtárak korlátozására.';
+$string['nopermissiontosavecontentuserdata'] = 'Nem jogosult a felhasználói adatok mentésére.';
+$string['nopermissiontosaveresult'] = 'Nem jogosult a tartalom eredményének mentésére.';
+$string['nopermissiontoupgrade'] = 'Nem jogosult könyvtárak frissítésére.';
+$string['nopermissiontouploadcontent'] = 'Nincs engedélye tartalom feltöltésére.';
+$string['nopermissiontouploadfiles'] = 'Nem rendelkezik jogosultsággal állományok feltöltésére.';
+$string['nopermissiontoviewcontenttypes'] = 'Nincs engedélye a tartalomtípusok megtekintésére.';
+$string['nopermissiontoviewresult'] = 'Nem jogosult a tartalom eredményeinek megtekintésére.';
+$string['nosuchlibrary'] = 'Nincs ilyen könyvtár.';
+$string['notapplicable'] = 'Nem értelmezhető';
+$string['nounzip'] = 'A feltöltött állomány nem egy érvényes HTML5 csomag (nem sikerült kicsomagolni).';
+$string['noversionattribution'] = 'Nevezd meg';
+$string['noversionattributionnc'] = 'Nevezd meg - Ne add el';
+$string['noversionattributionncnd'] = 'Nevezd meg - Ne add el - Ne változtasd';
+$string['noversionattributionncsa'] = 'Nevezd meg - Ne add el - Így add tovább';
+$string['noversionattributionnd'] = 'Nevezd meg - Ne változtasd';
+$string['noversionattributionsa'] = 'Nevezd meg - Így add tovább';
+$string['nowriteaccess'] = 'Probléma merült fel a szerveroldali írási jogokkal. Ellenőrizze, hogy a szerver írhat-e az adatkönyvtárba.';
+$string['noziparchive'] = 'Ez a PHP verzió nem támogatja a ZipArchive-ot.';
+$string['offlinedialogbody'] = 'A feladat teljesítéséről szóló információ elküldése sikertelen. Ellenőrizze internetkapcsolatát.';
+$string['offlinedialogheader'] = 'A szerverkapcsolat megszakadt';
+$string['offlinedialogretrybuttonlabel'] = 'Újrapróbálás most';
+$string['offlinedialogretrymessage'] = 'Újrapróbálás :num múlva.';
+$string['offlinesuccessfulsubmit'] = 'Eredmények sikeresen leadva.';
+$string['oldphpversion'] = 'Elavult php verziót használ. A H5P működéséhez legalább 5.2-re van szükség, de javasolt az 5.6-nál újabb verzió használata.';
+$string['olduploadoldcontent'] = 'A H5P egy régebbi verziójában készült tartalmat próbál feltölteni. Frissítse a kiszolgálón lévő tartalmat, és próbálja meg újra feltölteni, vagy kapcsolja be a H5P Központot, hogy a kiszolgáló automatikusan frissítse azt.';
+$string['onlyupdate'] = 'Csak a meglévő könyvtárak frissítése.';
+$string['options'] = 'Lehetőségek';
+$string['originator'] = 'Alkotó';
+$string['pd'] = 'Közkincs';
+$string['pddl'] = 'Közkincsbe sorolás és engedély';
+$string['pdm'] = 'Közkincs jele';
+$string['pluginadministration'] = 'H5P';
+$string['pluginname'] = 'H5P';
+$string['postmessagerequired'] = 'Egy post üzenet szükséges a megadott végpont eléréséhez';
+$string['previouspage'] = 'Előző oldal';
+$string['privacy:metadata:core_files'] = 'A H5P tevékenység tartalmazza az állományokat, amelyek a H5P tartalom részeiként lettek feltöltve';
+$string['privacy:metadata:core_grades'] = 'A H5P tevékenység eltárolja a válaszokat leadó tanulók pontszámait.';
+$string['privacy:metadata:hvp_content_user_data'] = 'Meghatározza a felhasználó számára a tartalom jelenlegi állapotát. A tartalom korábbi verzióra való visszaállítására használatos.';
+$string['privacy:metadata:hvp_content_user_data:data'] = 'Felhasználói adatok eltárolva.';
+$string['privacy:metadata:hvp_content_user_data:data_id'] = 'Adattípus-azonosító.';
+$string['privacy:metadata:hvp_content_user_data:delete_on_content_change'] = 'Állapotjelző arról, hogy a tartalom változása esetén az adatok törlődjenek-e.';
+$string['privacy:metadata:hvp_content_user_data:hvp_id'] = 'Azonosító a H5P tartalomhoz, amelyhez az adatok tartoznak.';
+$string['privacy:metadata:hvp_content_user_data:id'] = 'A tartalom-felhasználó-adat kapcsolat azonosítója.';
+$string['privacy:metadata:hvp_content_user_data:preloaded'] = 'Állapotjelző arról, hogy az adatokat előre be kell-e tölteni a tartalomba.';
+$string['privacy:metadata:hvp_content_user_data:sub_content_id'] = 'A H5P altartalma, amely 0, ha ez nem altartalom.';
+$string['privacy:metadata:hvp_content_user_data:user_id'] = 'A felhasználó azonosítója, akihez az adatok tartoznak.';
+$string['privacy:metadata:hvp_events'] = 'Nyomon követi a naplózott H5P eseményeket.';
+$string['privacy:metadata:hvp_events:content_id'] = 'A tartalom azonosítója, amelyen a művelet végrehajtásra kerül, s ez 0, ha új, vagy nincs tartalom.';
+$string['privacy:metadata:hvp_events:content_title'] = 'A tartalom címe.';
+$string['privacy:metadata:hvp_events:created_at'] = 'Az esemény létrehozásának ideje.';
+$string['privacy:metadata:hvp_events:id'] = 'Az esemény egyedi azonosítója.';
+$string['privacy:metadata:hvp_events:library_name'] = 'A könyvtár, amelyet az esemény érintett.';
+$string['privacy:metadata:hvp_events:library_version'] = 'A könyvtár változata, amelyet az esemény érintett.';
+$string['privacy:metadata:hvp_events:sub_type'] = 'Az esemény altípusa vagy művelete.';
+$string['privacy:metadata:hvp_events:type'] = 'Az esemény típusa.';
+$string['privacy:metadata:hvp_events:user_id'] = 'A műveletet végrehajtó felhasználó azonosítója.';
+$string['privacy:metadata:hvp_xapi_results'] = 'Eltárolja az xAPI eseményeket a H5P tartalomban.';
+$string['privacy:metadata:hvp_xapi_results:additionals'] = 'További információk, melyeket a H5P be tud küldeni.';
+$string['privacy:metadata:hvp_xapi_results:content_id'] = 'A tartalom azonosítója, amelyen az esemény végrehajtásra került.';
+$string['privacy:metadata:hvp_xapi_results:correct_responses_pattern'] = 'A helyes válasz mintája.';
+$string['privacy:metadata:hvp_xapi_results:description'] = 'A tartalom leírása, feladata vagy kérdése, amelyen a művelet végrehajtásra került.';
+$string['privacy:metadata:hvp_xapi_results:id'] = 'Az xAPI esemény egyedi azonosítója.';
+$string['privacy:metadata:hvp_xapi_results:interaction_type'] = 'Az interakció típusa.';
+$string['privacy:metadata:hvp_xapi_results:max_score'] = 'Az esemény által elérhető legmagasabb pontszám.';
+$string['privacy:metadata:hvp_xapi_results:parent_id'] = 'A tartalom szülőjének azonosítója, amelyen az esemény végrehajtásra került.';
+$string['privacy:metadata:hvp_xapi_results:raw_score'] = 'Az esemény által elért pontszám.';
+$string['privacy:metadata:hvp_xapi_results:response'] = 'A felhasználó által beküldött válasz.';
+$string['privacy:metadata:hvp_xapi_results:user_id'] = 'A felhasználó azonosítója, aki a műveletet végrehajtotta.';
+$string['question'] = 'Kérdés';
+$string['removeoldlogentries'] = 'Régi H5P naplóbejegyzések eltávolítása';
+$string['removeoldmobileauthentries'] = 'Az elavult H5P mobil azonosító tételek eltávolítása';
+$string['removetmpfiles'] = 'Régi ideiglenes H5P állományok eltávolítása';
+$string['reportingquestionsremaininglabel'] = 'kérdés vár értékelésre';
+$string['reportingscaledscoredelimiter'] = '\'';
+$string['reportingscaledscorelabel'] = 'Osztálynapló pontszáma:';
+$string['reportingscoredelimiter'] = 'ennyiből:';
+$string['reportingscorelabel'] = 'Pontszám:';
+$string['reportnotsupported'] = 'Nem támogatott';
+$string['reportsubmitgradelabel'] = 'Osztályzat beküldése';
+$string['resizescript'] = 'Szúrja be a kódot a weboldalába, ha a beágyazott tartalmat dinamikus méretezéssel szeretné megjeleníttetni,';
+$string['resubmitscores'] = 'Kísérlet a tárolt eredmények beküldésére.';
+$string['reuse'] = 'Ismételt használat';
+$string['reusecontent'] = 'Tartalom újrafelhasználása';
+$string['reusedescription'] = 'E tartalom újrafelhasználása.';
+$string['reveal'] = 'Felfed';
+$string['reviseserversetupandretry'] = 'A szerver beállításainak ellenőrzése után a H5P beállításai között visszakapcsolható a Központtal való kommunikáció.';
+$string['score'] = 'Pontszám';
+$string['search'] = 'Keresés';
+$string['sendusagestatistics'] = 'Hozzájárulás a használati statisztikákhoz';
+$string['sendusagestatistics_help'] = 'A használati statisztikák segítenek a H5P fejlesztőinek annak megértésében, hogy a felhasználók hogyan használják az alkalmazást, és hogy melyek a szükséges fejlesztések.';
+$string['settings'] = 'H5P beállítások';
+$string['showadvanced'] = 'Részletes beállítások megjelenítése';
+$string['showless'] = 'Kevesebbet mutat';
+$string['showmore'] = 'Többet mutat';
+$string['sitecouldnotberegistered'] = 'Az oldal nem regisztrálható a H5P Központban. Vegye fel a kapcsolatot az adminisztrátorral.';
+$string['sitekey'] = 'Honlap azonosító';
+$string['sitekeydescription'] = 'A hely kulcsa egy titkos kód, amely egyedileg azonosítja ezt a webhelyet a H5P Központban.';
+$string['sitekeyregistered'] = 'Kapott egy egyedi kulcsot, amely azonosítja Önt a H5P Központban az új frissítések fogadásakor. A kulcs a "H5P beállítások" oldalon tekinthető meg.';
+$string['size'] = 'Méret';
+$string['source'] = 'Forrás';
+$string['sslnotenabled'] = 'Az Ön szerverén nincs engedélyezve az SSL használata. Az SSL-t engedélyezni kell, hogy biztosíthassa a szerver és a H5P Központ közötti biztonságos kommunikációt.';
+$string['startingover'] = 'Elölről fogja kezdeni.';
+$string['sublevel'] = 'Alszint';
+$string['successfullyregisteredwithhub'] = 'Az oldal sikeresen regisztrálásra került a H5P Központban.';
+$string['thumbnail'] = 'Ikon';
+$string['title'] = 'Cím';
+$string['unabletocreatedir'] = 'Könyvtár létrehozása sikertelen.';
+$string['unabletogetfieldtype'] = 'A mező adattípusa nem meghatározható.';
+$string['undisclosed'] = 'Nem közzétett';
+$string['unpackedfilesexceedsmaxsize'] = 'A kicsomagolt állományok teljes mérete meghaladja az engedélyezett maximális méretet (%used > %max).';
+$string['updatedlibraries'] = '{$a->%old} H5P könyvtár frissítve.';
+$string['updatedlibrary'] = 'Frissített {$a->%old} H5P könyvtár.';
+$string['updatelibraries'] = 'Minden könyvtár frissítése';
+$string['upgrade'] = 'H5P frissítése';
+$string['upgradebuttonlabel'] = 'Verziófrissítés';
+$string['upgradedone'] = '{$a} tartalom sikeresen frissítve.';
+$string['upgradeerror'] = 'Hiba történt a következő paraméterek feldolgozásakor:';
+$string['upgradeerrorcontent'] = '%id tartalom frissítése sikertelen.';
+$string['upgradeerrordata'] = '%lib könyvtárhoz az adatok betöltése nem sikerült.';
+$string['upgradeerrormissinglibrary'] = 'A(z) %lib könyvtár hiányzik.';
+$string['upgradeerrornotsupported'] = 'A paraméterek %used-t tartalmaznak, ami nem támogatott.';
+$string['upgradeerrorparamsbroken'] = 'A  paraméterek hibásak.';
+$string['upgradeerrorscript'] = '%lib könyvtárhoz a kódfrissítés betöltése nem sikerült.';
+$string['upgradeerrortoohighversion'] = 'A paraméterek %used-t tartalmaznak, de csak a(z) %supported vagy korábbiak támogatottak.';
+$string['upgradeheading'] = '{$a} tartalom frissítése';
+$string['upgradeinprogress'] = 'Frissítés %ver verzióra';
+$string['upgradeinvalidtoken'] = 'Hiba: érvénytelen biztonsági vezérjel!';
+$string['upgradelibrarycontent'] = 'Könyvtártartalom frissítése';
+$string['upgradelibrarymissing'] = 'Hiba: a könyvtár hiányzik!';
+$string['upgrademessage'] = '{$a} tartalmat készül frissíteni. Válassza ki a frissítési verziót!';
+$string['upgradenoavailableupgrades'] = 'Nincsenek elérhető frissítések ehhez a könyvtárhoz.';
+$string['upgradenothingtodo'] = 'Nincs frissíthető tartalom.';
+$string['upgradereturn'] = 'Vissza';
+$string['upload'] = 'Feltöltés';
+$string['uploadlibraries'] = 'Könyvtárak feltöltése';
+$string['uploadsizelargerthanpostsize'] = 'A php max upload értéke magasabb, mint a max post size. Ez egyes telepítéseknél gondot okoz.';
+$string['user'] = 'Felhasználó';
+$string['validatingh5pfailed'] = 'A H5P csomag érvényességének ellenőrzése nem sikerült.';
+$string['validationfailed'] = 'A kért H5P csomag érvénytelen volt';
+$string['viewreportlabel'] = 'Jelentés';
+$string['welcomecommunity'] = 'Reméljük, tetszeni fog a H5P, és csatlakozik növekvő közösségünkhöz <a {$a->forums}>fórumainkon</a> és a <a {$a->gitter}>H5P at Gitter</a> csevegőszobán keresztül!';
+$string['welcomecontactus'] = 'Ha van visszajelzése, <a {$a}>lépjen velünk kapcsolatba!</a> A visszajelzéseket komolyan vesszük, mert célunk a H5P jobbá tétele!';
+$string['welcomegettingstarted'] = 'A  H5P és a Moodle elkezdéséhez vessen egy pillantást a <a {$a->moodle_tutorial}>segédanyagra</a> és a <a {$a->example_content}>mintatartalomra</a> a H5P.org portálon! A legnépszerűbb tartalomtípusokat már előre telepítettük!';
+$string['welcomeheader'] = 'Üdvözöljük a H5P világában!';
+$string['wrongversion'] = 'Az ebben a tartalomban használt H5P {$a->%machineName} könyvtár érvénytelen. A tartalom a(z) {$a->%contentLibrary}-t tartalmazza, de ennek a(z) {$a->%semanticsLibrary} könyvtárnak kellene lennie.';
+$string['year'] = 'Év';
+$string['years'] = 'Év(ek)';
+$string['yearsfrom'] = 'Évek (ekkortól)';
+$string['yearsto'] = 'Évek (eddig)';

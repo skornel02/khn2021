@@ -1,0 +1,22 @@
+a:26:{s:8:"encoding";s:16:"Fájl kódolása";s:13:"expiredaction";s:37:"Intézkedés beiratkozás lejártakor";s:18:"expiredaction_help";s:187:"Válasszon ki egy intézkedést, amelyre a felhasználó beiratkozásának lejártakor kerül sor. Kiiratkozáskor egyes felhasználói adatok és beállítások törlődnek a kurzusból!";s:14:"filelockedmail";s:324:"Az Ön által beiratkozásra használt szöveges állományt ({$a}) a cron folyamattal nem lehet törölni. Ez olyankor fordul elő, ha nem megfelelő engedélyek vannak hozzárendelve. Állítsa be az engedélyeket úgy, hogy a Moodle törölni tudja az állományt, ellenkező esetben megismétlődhet annak feldolgozása.";s:21:"filelockedmailsubject";s:40:"Lényeges hiba: beiratkozási állomány";s:15:"flatfile:manage";s:30:"Beiratkozások kézi kezelése";s:16:"flatfile:unenrol";s:21:"Kézi kiiratkoztatás";s:18:"flatfileenrolments";s:30:"Flat file (CSV) beiratkozások";s:12:"flatfilesync";s:48:"Sima állományos beiratkozás szinkronizálása";s:8:"location";s:16:"Állomány helye";s:13:"location_desc";s:97:"Teljes útvonal megadása a beiratkozási fájl számára. Feldolgozás után a fájl törlődik.";s:11:"notifyadmin";s:27:"Rendszergazda értesítése";s:14:"notifyenrolled";s:28:"Beiratkozottak értesítése";s:14:"notifyenroller";s:36:"Beiratkozási felelős értesítése";s:34:"messageprovider:flatfile_enrolment";s:52:"Egyszerű állománnyal való beiratkozás üzenetei";s:7:"mapping";s:44:"Megfeleltetés egyszerű állomány alapján";s:10:"pluginname";s:27:"Egyszerű (CSV) állomány ";s:15:"pluginname_desc";s:818:"Ez a módszer ismételten ellenőrzi és feldolgozza a megadott helyen lévő, speciális formázású szöveget.
+A szöveg vesszőkkel elválasztott állomány, soronként négy-hat mezővel:
+<pre class="informationbox">
+* operation, role, idnumber(user), idnumber(course) [, starttime,
+endtime]
+ahol:
+* operation = add | del
+* role = student | teacher | teacheredit
+* idnumber(user) = idnumber in the user table NB not id
+* idnumber(course) = idnumber in the course table NB not id
+* starttime = start time (in seconds since epoch) - optional
+* endtime = end time (in seconds since epoch) - optional
+</pre>
+Ez lehet például a következő:
+
+add, student, 5, CF101
+add, teacher, 6, CF101
+add, teacheredit, 7, CF101
+del, student, 8, CF101
+del, student, 17, CF101
+add, student, 21, CF101, 1091115000, 1091215000
+</pre>";s:31:"privacy:metadata:enrol_flatfile";s:136:"A Flat file (CSV) beiratkozási segédprogram az enrol_flatfile táblában a jövőbeni beiratkozásokhoz személyes adatokat tárolhat.";s:38:"privacy:metadata:enrol_flatfile:action";s:46:"Az adott napon várható beiratkozási lépés";s:40:"privacy:metadata:enrol_flatfile:courseid";s:49:"A beiratkozáshoz kapcsolódó kurzus-azonosító";s:38:"privacy:metadata:enrol_flatfile:roleid";s:51:"A kiosztandó vagy megvonandó szerep azonosítója";s:41:"privacy:metadata:enrol_flatfile:timestart";s:22:"A beiratkozás kezdete";s:39:"privacy:metadata:enrol_flatfile:timeend";s:20:"A beiratkozás vége";s:44:"privacy:metadata:enrol_flatfile:timemodified";s:47:"A beiratkozás változtatásának módosítása";s:38:"privacy:metadata:enrol_flatfile:userid";s:70:"A szerep hozzárendeléséhez kapcsolódó felhasználó azonosítója";}

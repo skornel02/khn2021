@@ -1,0 +1,8 @@
+s:458:"<p>Groups may be imported via text file. The format of the file should be as follows:</p>
+
+<ul><li>Each line of the file contains one record</li>
+<li>Each record is a series of data separated by commas</li>
+<li>The first record contains a list of fieldnames defining the format of the rest of the file</li>
+<li>Required fieldname is groupname</li>
+<li>Optional fieldnames are groupidnumber, description, enrolmentkey, groupingname, enablemessaging</li>
+</ul>";

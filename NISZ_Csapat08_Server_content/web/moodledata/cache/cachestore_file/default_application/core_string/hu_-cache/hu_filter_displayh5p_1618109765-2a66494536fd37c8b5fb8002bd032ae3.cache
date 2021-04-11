@@ -1,0 +1,7 @@
+a:4:{s:18:"allowedsourceslist";s:24:"Engedélyezett források";s:22:"allowedsourceslistdesc";s:408:"Azon webcímek felsorolása, amelyekből a felhasználók H5P-tartalmat ágyazhatnak be. Ha üres, minden webcím hivatkozás marad, és nem jelenik meg beágyazott H5P-tartalomként.
+
+Az '[id]' a külső forrásban lévő H5P-tartalom azonosítójának a helyőrzője.
+Például:
+
+- H5P.com: https://[xxxxxx].h5p.com/content/[id]
+- Wordpress: http://myserver/wp-admin/admin-ajax.php?action=h5p_embed&id=[id]";s:10:"filtername";s:19:"H5P megjelenítése";s:16:"privacy:metadata";s:61:"A megjelenítési H5P-szűrő nem tárol személyes adatokat.";}

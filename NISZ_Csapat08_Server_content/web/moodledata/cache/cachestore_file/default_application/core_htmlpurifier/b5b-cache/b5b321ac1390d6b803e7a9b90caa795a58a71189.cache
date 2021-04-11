@@ -1,0 +1,7 @@
+s:1509:"<p>Külső eszközökkel a Moodle felhasználói gond nélkül kapcsolódhatnak távoli gépeken lévő tananyagokhoz. Egy speciális indítási protokollnak köszönhetően a távoli eszköz általános adatokhoz jut a kapcsolatot kezdeményező felhasználóról. Ilyen például az intézmény neve, a kurzus-azonosító, a felhasználó azonosítója, neve vagy e-mail-címe.
+Az oldalon felsorolt eszközök három csoportra különülnek el:</p>
+
+<ul><li><strong>Aktív</strong> - Ezeket az eszközszolgáltatókat rendszergazda hagyta jóvá és állította be. A portálon bármely kurzusban használhatók. Ha fogyasztókulcsot és megosztott titkos jelet ad meg, megbízhatónak feltételezett kapcsolat létesül a portál és a távoli eszköz között, ami biztonságos kommunikációs csatornát nyit meg.</li>
+<li><strong>Függő</strong> - Ezek az eszközszolgáltatók csomagimportálás révén kerültek be, de rendszergazda általi beállításukra még nem került sor. Ettől függetlenül az oktatók használhatják ezeket az eszközöket, ha rendelkeznek fogyasztókulccsal és megosztott titkos jellel, illetve ha ezek egyike sincs előírva.</li>
+<li><strong>Elutasított</strong> - Ezeket az eszközszolgáltatókat egy rendszergazda a portál számára nem kívánja hozzáférhetővé tenni. Ettől függetlenül az oktatók használhatják ezeket az eszközöket, ha rendelkeznek fogyasztókulccsal és megosztott titkos jellel, illetve ha ezek egyike sincs előírva.</li>
+</ul>";

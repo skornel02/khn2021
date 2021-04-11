@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Bejelentések</title>
+    <link>https://csapat08-versenydonto.nisz.hu/mod/forum/view.php?f=11</link>
+    <description></description>
+    <generator>Moodle</generator>
+    <language>en</language>
+    <copyright>(c) 2021 Kódolj Határok Nélkül! 2021</copyright>
+    <image>
+      <url>https://csapat08-versenydonto.nisz.hu/theme/image.php/moove/core/1618074014/i/rsssitelogo</url>
+      <title>moodle</title>
+      <link>https://csapat08-versenydonto.nisz.hu</link>
+      <width>140</width>
+      <height>35</height>
+    </image>
+  </channel>
+</rss>

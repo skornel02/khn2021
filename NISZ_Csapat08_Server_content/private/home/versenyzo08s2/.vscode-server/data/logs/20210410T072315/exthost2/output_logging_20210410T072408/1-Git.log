@@ -1,0 +1,968 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.eslintignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.eslintrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.gherkin-lintrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.gitattributes' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.github' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.install.php.swp' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.jshintignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.jshintrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.nvmrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.shifter.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.stylelintignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.stylelintrc' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/.travis.yml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/CONTRIBUTING.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/COPYING.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/Gruntfile.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/GruntfileComponents.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/INSTALL.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/PULL_REQUEST_TEMPLATE.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/README.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/TRADEMARK.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/admin' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/analytics' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/auth' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/availability' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/babel-plugin-add-module-to-define.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/backup' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/badges' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/behat.yml.dist' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/blocks' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/blog' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/brokenfile.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/cache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/calendar' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/cohort' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/comment' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/competency' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/completion' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/composer.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/composer.lock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/config-dist.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/config.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/contentbank' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/course' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/customfield' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/dataformat' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/draftfile.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/enrol' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/error' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/favourites' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/file.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/files' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/filter' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/githash.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/grade' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/group' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/h5p' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/help.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/help_ajax.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/index.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/install' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/install.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/iplookup' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/lang' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/lib' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/local' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/login' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/media' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/message' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/mnet' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/mod' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/my' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/notes' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/npm-shrinkwrap.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/package.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/payment' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/phpunit.xml.dist' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/pix' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/plagiarism' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/pluginfile.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/portfolio' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/privacy' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/question' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/rating' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/report' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/repository' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/rss' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/sajt.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/search' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/security.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/tag' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/theme' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/tokenpluginfile.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/user' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/userpix' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/version.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/var/www/clients/client8/web8/web/moodle/webservice' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/var/www/clients/client8/web8/web/moodle' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: Not a git repository (or any of the parent directories): .git\n"
+}

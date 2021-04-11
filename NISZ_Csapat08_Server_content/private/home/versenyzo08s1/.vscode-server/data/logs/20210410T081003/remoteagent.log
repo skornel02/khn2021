@@ -1,0 +1,27 @@
+[2021-04-10 08:10:03.460] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-04-10 08:10:03.460] [remoteagent] [info] Extension host agent started.
+[2021-04-10 08:10:03.644] [remoteagent] [info] [127.0.0.1][011faefe][ManagementConnection] New connection established.
+[2021-04-10 08:10:03.646] [remoteagent] [info] [127.0.0.1][3751c3cf][ExtensionHostConnection] New connection established.
+[2021-04-10 08:10:03.730] [remoteagent] [info] [127.0.0.1][3751c3cf][ExtensionHostConnection] <12386> Launched Extension Host Process.
+[2021-04-10 08:10:16.630] [remoteagent] [info] [127.0.0.1][011faefe][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-04-10 08:10:17.655] [remoteagent] [info] [127.0.0.1][3751c3cf][ExtensionHostConnection] <12386> Extension Host Process exited with code: 0, signal: null.
+[2021-04-10 08:10:17.655] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-10 08:10:18.266] [remoteagent] [info] [127.0.0.1][f552a2d3][ManagementConnection] New connection established.
+[2021-04-10 08:10:18.378] [remoteagent] [info] [127.0.0.1][bd3dd01b][ExtensionHostConnection] New connection established.
+[2021-04-10 08:10:18.387] [remoteagent] [info] [127.0.0.1][bd3dd01b][ExtensionHostConnection] <12475> Launched Extension Host Process.
+[2021-04-10 08:10:20.726] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-04-10 08:15:17.656] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-04-10 20:38:05.155] [remoteagent] [info] [127.0.0.1][f552a2d3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-04-10 23:38:00.661] [remoteagent] [info] [127.0.0.1][bd3dd01b][ExtensionHostConnection] <12475> Extension Host Process exited with code: 0, signal: null.
+[2021-04-10 23:38:00.661] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-10 23:38:05.157] [remoteagent] [info] [127.0.0.1][f552a2d3][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-04-10 23:43:00.660] [remoteagent] [info] Last EH closed, shutting down

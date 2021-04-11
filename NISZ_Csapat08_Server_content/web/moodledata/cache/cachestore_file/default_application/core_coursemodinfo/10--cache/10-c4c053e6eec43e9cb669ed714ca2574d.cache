@@ -1,0 +1,196 @@
+O:8:"stdClass":9:{s:7:"modinfo";a:16:{i:52;O:8:"stdClass":11:{s:2:"id";s:2:"13";s:2:"cm";s:2:"52";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"24";s:6:"module";s:1:"9";s:5:"added";s:10:"1618112487";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"name";s:13:"Announcements";}i:47;O:8:"stdClass":12:{s:2:"id";s:1:"4";s:2:"cm";s:2:"47";s:3:"mod";s:3:"url";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"25";s:6:"module";s:2:"21";s:5:"added";s:10:"1618111637";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:8:"Weboldal";}i:41;O:8:"stdClass":12:{s:2:"id";s:1:"5";s:2:"cm";s:2:"41";s:3:"mod";s:8:"hsuforum";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"25";s:6:"module";s:2:"26";s:5:"added";s:10:"1618111308";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:22:"Vitasd meg! Linux Mint";}i:31;O:8:"stdClass":14:{s:2:"id";s:1:"6";s:2:"cm";s:2:"31";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"25";s:6:"module";s:2:"13";s:5:"added";s:10:"1618100458";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:53:"
+
+    var urls = [
+        "https://" + "csapat...";s:7:"content";s:1777:"<div class="no-overflow"><output id="linuxminthu"></output>
+<script>
+    var urls = [
+        "https://" + "csapat08-versenydonto.nisz.hu/linuxminthu-rss.php"
+    ];
+    var id = "linuxminthu";
+    var DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+    var frag = document.createElement("div");
+    urls.forEach((u) => {
+        const url = new URL(u);
+        fetch(u).then((res) => {
+            res.text().then((xmlTxt) => {
+                /* Parse the RSS Feed and display the content */
+                try {
+                    let doc = DOMPARSER(xmlTxt, "text/xml");
+                    doc.querySelectorAll('item').forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = item.querySelector("link").innerHTML;
+                        let temp = document.createElement("div");
+                        const title = document.createElement('h2');
+                        title.innerHTML = item.querySelector("title").innerHTML;
+                        link.appendChild(title);
+                        const desc = document.createElement("p");
+                        desc.innerHTML = item.querySelector("description").innerHTML;
+                        desc.innerHTML = desc.innerText;
+                        temp.appendChild(link);
+                        temp.appendChild(desc);
+                        frag.appendChild(temp);
+                    })
+                } catch (e) {
+                    console.error('Error in parsing the feed', e)
+                }
+                document.querySelector(`output#${id}`).appendChild(frag)
+            })
+        }).catch(() => console.error('Error in fetching the RSS feed'))
+    });
+</script></div>";}i:48;O:8:"stdClass":12:{s:2:"id";s:1:"5";s:2:"cm";s:2:"48";s:3:"mod";s:3:"url";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"26";s:6:"module";s:2:"21";s:5:"added";s:10:"1618111679";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:8:"Weboldal";}i:43;O:8:"stdClass":12:{s:2:"id";s:1:"7";s:2:"cm";s:2:"43";s:3:"mod";s:8:"hsuforum";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"26";s:6:"module";s:2:"26";s:5:"added";s:10:"1618111398";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:24:" Vitasd meg! LibreOffice";}i:34;O:8:"stdClass":14:{s:2:"id";s:1:"9";s:2:"cm";s:2:"34";s:3:"mod";s:5:"label";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"26";s:6:"module";s:2:"13";s:5:"added";s:10:"1618100666";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:53:"
+
+    var urls = [
+        "https://" + "csapat...";s:7:"content";s:1759:"<div class="no-overflow"><output id="huphu"></output>
+<script>
+    var urls = [
+        "https://" + "csapat08-versenydonto.nisz.hu/huphu-rss.php"
+    ];
+    var id = "huphu";
+    var DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+    var frag = document.createElement("div");
+    urls.forEach((u) => {
+        const url = new URL(u);
+        fetch(u).then((res) => {
+            res.text().then((xmlTxt) => {
+                /* Parse the RSS Feed and display the content */
+                try {
+                    let doc = DOMPARSER(xmlTxt, "text/xml");
+                    doc.querySelectorAll('item').forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = item.querySelector("link").innerHTML;
+                        let temp = document.createElement("div");
+                        const title = document.createElement('h2');
+                        title.innerHTML = item.querySelector("title").innerHTML;
+                        link.appendChild(title);
+                        const desc = document.createElement("p");
+                        desc.innerHTML = item.querySelector("description").innerHTML;
+                        desc.innerHTML = desc.innerText;
+                        temp.appendChild(link);
+                        temp.appendChild(desc);
+                        frag.appendChild(temp);
+                    })
+                } catch (e) {
+                    console.error('Error in parsing the feed', e)
+                }
+                document.querySelector(`output#${id}`).appendChild(frag)
+            })
+        }).catch(() => console.error('Error in fetching the RSS feed'))
+    });
+</script></div>";}i:50;O:8:"stdClass":12:{s:2:"id";s:1:"7";s:2:"cm";s:2:"50";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"27";s:6:"module";s:2:"21";s:5:"added";s:10:"1618111706";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:8:"Weboldal";}i:44;O:8:"stdClass":12:{s:2:"id";s:1:"8";s:2:"cm";s:2:"44";s:3:"mod";s:8:"hsuforum";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"27";s:6:"module";s:2:"26";s:5:"added";s:10:"1618111458";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:16:"Vitasd meg! NISZ";}i:35;O:8:"stdClass":14:{s:2:"id";s:2:"10";s:2:"cm";s:2:"35";s:3:"mod";s:5:"label";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"27";s:6:"module";s:2:"13";s:5:"added";s:10:"1618100921";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:53:"
+
+    var urls = [
+        "https://" + "csapat...";s:7:"content";s:1762:"<div class="no-overflow"><output id="niszhu"></output>
+<script>
+    var urls = [
+        "https://" + "csapat08-versenydonto.nisz.hu/niszhu-rss.php"
+    ];
+    var id = "niszhu";
+    var DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+    var frag = document.createElement("div");
+    urls.forEach((u) => {
+        const url = new URL(u);
+        fetch(u).then((res) => {
+            res.text().then((xmlTxt) => {
+                /* Parse the RSS Feed and display the content */
+                try {
+                    let doc = DOMPARSER(xmlTxt, "text/xml");
+                    doc.querySelectorAll('item').forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = item.querySelector("link").innerHTML;
+                        let temp = document.createElement("div");
+                        const title = document.createElement('h2');
+                        title.innerHTML = item.querySelector("title").innerHTML;
+                        link.appendChild(title);
+                        const desc = document.createElement("p");
+                        desc.innerHTML = item.querySelector("description").innerHTML;
+                        desc.innerHTML = desc.innerText;
+                        temp.appendChild(link);
+                        temp.appendChild(desc);
+                        frag.appendChild(temp);
+                    })
+                } catch (e) {
+                    console.error('Error in parsing the feed', e)
+                }
+                document.querySelector(`output#${id}`).appendChild(frag)
+            })
+        }).catch(() => console.error('Error in fetching the RSS feed'))
+    });
+</script></div>";}i:51;O:8:"stdClass":12:{s:2:"id";s:1:"8";s:2:"cm";s:2:"51";s:3:"mod";s:3:"url";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"28";s:6:"module";s:2:"21";s:5:"added";s:10:"1618111738";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:8:"Weboldal";}i:45;O:8:"stdClass":12:{s:2:"id";s:1:"9";s:2:"cm";s:2:"45";s:3:"mod";s:8:"hsuforum";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"28";s:6:"module";s:2:"26";s:5:"added";s:10:"1618111504";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:18:"Vitasd meg! Svelte";}i:36;O:8:"stdClass":14:{s:2:"id";s:2:"11";s:2:"cm";s:2:"36";s:3:"mod";s:5:"label";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"28";s:6:"module";s:2:"13";s:5:"added";s:10:"1618101122";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:53:"
+
+    var urls = [
+        "https://" + "csapat...";s:7:"content";s:1768:"<div class="no-overflow"><output id="svelteen"></output>
+<script>
+    var urls = [
+        "https://" + "csapat08-versenydonto.nisz.hu/svelteen-rss.php"
+    ];
+    var id = "svelteen";
+    var DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+    var frag = document.createElement("div");
+    urls.forEach((u) => {
+        const url = new URL(u);
+        fetch(u).then((res) => {
+            res.text().then((xmlTxt) => {
+                /* Parse the RSS Feed and display the content */
+                try {
+                    let doc = DOMPARSER(xmlTxt, "text/xml");
+                    doc.querySelectorAll('item').forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = item.querySelector("link").innerHTML;
+                        let temp = document.createElement("div");
+                        const title = document.createElement('h2');
+                        title.innerHTML = item.querySelector("title").innerHTML;
+                        link.appendChild(title);
+                        const desc = document.createElement("p");
+                        desc.innerHTML = item.querySelector("description").innerHTML;
+                        desc.innerHTML = desc.innerText;
+                        temp.appendChild(link);
+                        temp.appendChild(desc);
+                        frag.appendChild(temp);
+                    })
+                } catch (e) {
+                    console.error('Error in parsing the feed', e)
+                }
+                document.querySelector(`output#${id}`).appendChild(frag)
+            })
+        }).catch(() => console.error('Error in fetching the RSS feed'))
+    });
+</script></div>";}i:49;O:8:"stdClass":12:{s:2:"id";s:1:"6";s:2:"cm";s:2:"49";s:3:"mod";s:3:"url";s:7:"section";s:1:"5";s:9:"sectionid";s:2:"29";s:6:"module";s:2:"21";s:5:"added";s:10:"1618111683";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:8:"Weboldal";}i:46;O:8:"stdClass":12:{s:2:"id";s:2:"10";s:2:"cm";s:2:"46";s:3:"mod";s:8:"hsuforum";s:7:"section";s:1:"5";s:9:"sectionid";s:2:"29";s:6:"module";s:2:"26";s:5:"added";s:10:"1618111565";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:18:"Vitasd meg! Moodle";}i:37;O:8:"stdClass":14:{s:2:"id";s:2:"12";s:2:"cm";s:2:"37";s:3:"mod";s:5:"label";s:7:"section";s:1:"5";s:9:"sectionid";s:2:"29";s:6:"module";s:2:"13";s:5:"added";s:10:"1618101187";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:53:"
+
+    var urls = [
+        "https://" + "csapat...";s:7:"content";s:1771:"<div class="no-overflow"><output id="moodleorg"></output>
+<script>
+    var urls = [
+        "https://" + "csapat08-versenydonto.nisz.hu/moodleorg-rss.php"
+    ];
+    var id = "moodleorg";
+    var DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+    var frag = document.createElement("div");
+    urls.forEach((u) => {
+        const url = new URL(u);
+        fetch(u).then((res) => {
+            res.text().then((xmlTxt) => {
+                /* Parse the RSS Feed and display the content */
+                try {
+                    let doc = DOMPARSER(xmlTxt, "text/xml");
+                    doc.querySelectorAll('item').forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = item.querySelector("link").innerHTML;
+                        let temp = document.createElement("div");
+                        const title = document.createElement('h2');
+                        title.innerHTML = item.querySelector("title").innerHTML;
+                        link.appendChild(title);
+                        const desc = document.createElement("p");
+                        desc.innerHTML = item.querySelector("description").innerHTML;
+                        desc.innerHTML = desc.innerText;
+                        temp.appendChild(link);
+                        temp.appendChild(desc);
+                        frag.appendChild(temp);
+                    })
+                } catch (e) {
+                    console.error('Error in parsing the feed', e)
+                }
+                document.querySelector(`output#${id}`).appendChild(frag)
+            })
+        }).catch(() => console.error('Error in fetching the RSS feed'))
+    });
+</script></div>";}}s:12:"sectioncache";a:6:{i:0;O:8:"stdClass":3:{s:2:"id";s:2:"24";s:4:"name";N;s:12:"availability";N;}i:1;O:8:"stdClass":3:{s:2:"id";s:2:"25";s:4:"name";s:10:"Linux Mint";s:12:"availability";N;}i:2;O:8:"stdClass":3:{s:2:"id";s:2:"26";s:4:"name";s:11:"LibreOffice";s:12:"availability";N;}i:3;O:8:"stdClass":3:{s:2:"id";s:2:"27";s:4:"name";s:4:"NISZ";s:12:"availability";N;}i:4;O:8:"stdClass":3:{s:2:"id";s:2:"28";s:4:"name";s:14:"Svelte (angol)";s:12:"availability";N;}i:5;O:8:"stdClass":3:{s:2:"id";s:2:"29";s:4:"name";s:14:"Moodle (angol)";s:12:"availability";N;}}s:9:"shortname";s:17:"Nyílt Fk. Hírek";s:8:"fullname";s:27:"Nyílt Forráskódú Hírek";s:6:"format";s:5:"tiles";s:16:"enablecompletion";s:1:"0";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1618117089";}

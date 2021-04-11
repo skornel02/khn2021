@@ -1,0 +1,39 @@
+a:45:{s:13:"accountexists";s:178:"Ezzel a felhasználónévvel már szerepel felhasználó a portálon. Ha ez az Ön fiókja, jelentkezzen be és kapcsolja össze hivatkozását a beállítási oldalon lévővel.";s:22:"auth_oauth2description";s:42:"OAuth 2 szabványon alapuló hitelesítés";s:19:"auth_oauth2settings";s:36:"OAuth 2 hitelesítés beállításai";s:19:"confirmaccountemail";s:580:"Üdvözöljük, {$a->fullname},
+
+A(z) '{$a->sitename}' portálról az Ön e-mail-címével új fiók létrehozását kérték.
+
+Új fiókjának megerősítéséhez látogasson el ide:
+
+{$a->link}
+
+A levelező programokban ez általában kék színben jelenik meg és kattintással használható. Ha ez nem működik, másolja ki a címet és illessze be böngészője címsorába.
+
+Ha segítségre van szüksége, forduljon a rendszergazdához:
+{$a->admin}
+
+Ha Ön nem tett így, valaki más próbálhatott visszaélni a fiókjával. Haladéktalanul forduljon a rendszergazdához!";s:26:"confirmaccountemailsubject";s:18:"{$a}: fiók adatai";s:19:"confirmationinvalid";s:141:"A megerősítő hivatkozás vagy érvénytelen, vagy lejárt. Kezdje újra a bejelentkezést az új megerősítő e-mail előállításához.";s:19:"confirmationpending";s:46:"A fiók e-mailben való megerősítésre vár.";s:23:"confirmlinkedloginemail";s:682:"Üdvözöljük, {$a->fullname},
+
+A(z) '{$a->sitename}' portálon lévő fiókjához az Ön e-mail-címével  {$a->issuername} bejelentkezés
+{$a->linkedemail} összekapcsolását kérték.
+
+A kérelem megerősítéséhez és a bejelentkezések összekapcsolásához látogasson el ide:
+
+{$a->link}
+
+A levelező programokban ez általában kék színben jelenik meg és kattintással használható. Ha ez nem működik, másolja ki a címet és illessze be böngészője címsorába.
+
+Ha segítségre van szüksége, forduljon a rendszergazdához:
+{$a->admin}
+
+Ha Ön nem tett így, valaki más próbálhatott visszaélni a fiókjával. Haladéktalanul forduljon a rendszergazdához!";s:30:"confirmlinkedloginemailsubject";s:51:"{$a}: összekapcsolt bejelentkezés megerősítése";s:21:"createaccountswarning";s:178:"Ezzel a hitelesítő segédprogrammal a felhasználók fiókokat hozhatnak létre a portálján. Használata esetén bekapcsolhatja az "authpreventaccountcreation" beállítást.";s:20:"createnewlinkedlogin";s:35:"Új  ({$a}) fiók összekapcsolása";s:16:"emailconfirmlink";s:29:"Fiókjainak összekapcsolása";s:20:"emailconfirmlinksent";s:363:"<p>Ezzel az e-mail címmel már létezik fiók, de még nincs összekapcsolva.</p>
+<p>Bejelentkezés előtt a fiókokat össze kell kapcsolni.</p>
+<p><b>{$a}</b> címére e-mailt kellett kapnia.</p>
+<p>Benne megtalálja a fiókok összekapcsolásához szükséges egyszerű utasításokat.</p>
+<p>Ha továbbra is gondjai vannak, forduljon a rendszergazdához.</p>";s:23:"emailpasswordchangeinfo";s:316:"Üdvözöljük, {$a->firstname}!
+
+Valaki (vélhetőleg Ön) új jelszót kért a(z) '{$a->sitename}' portálon lévő fiókjához.
+
+Jelszavát nem lehet visszaállítani, mert a bejelentkezéshez másik portálon lévő fiókját használja.
+
+Lépjen be a korábbi módon az ott található ugróponntal.
+{$a->admin}";s:30:"emailpasswordchangeinfosubject";s:32:"{$a}: jelszómódosítás adatai";s:4:"info";s:13:"Külső fiók";s:6:"issuer";s:22:"OAuth 2 szolgáltatás";s:13:"issuernologin";s:36:"A kibocsátóval nem lehet belépni.";s:12:"linkedlogins";s:31:"Összekapcsolt bejelentkezések";s:16:"linkedloginshelp";s:40:"Összekapcsolt bejelentkezések súgója";s:25:"loginerror_userincomplete";s:150:"A visszakapott felhasználói adat nem tartalmaz felhasználónevet és e-mail címet. Lehet, hogy az OAuth 2 szolgáltatás hibásan van beállítva.";s:21:"loginerror_nouserinfo";s:105:"Nem érkezett vissza felhasználói adat. Lehet, hogy az OAuth 2 szolgáltatás hibásan van beállítva.";s:24:"loginerror_invaliddomain";s:45:"A portálon az e-mail cím nem használható.";s:31:"loginerror_authenticationfailed";s:30:"A hitelesítés nem sikerült.";s:31:"loginerror_cannotcreateaccounts";s:36:"E-mail címével nem létezik fiók.";s:18:"noissuersavailable";s:110:"A beállított OAuth2 szolgáltatások közül egyik sem engedi a bejelentkezési fiókok összekapcsolását.";s:16:"notloggedindebug";s:42:"A bejelentkezés nem sikerült. Oka:  {$a}";s:18:"notwhileloggedinas";s:101:"Összekapcsolt bejelentkezések más felhasználóként való bejelentkezés esetén nem kezelhetők.";s:25:"oauth2:managelinkedlogins";s:55:"Saját összekapcsolt bejelentkezési fiókok kezelése";s:10:"notenabled";s:55:"Az OAuth2 hitelesítő segédprogram nincs bekapcsolva.";s:17:"plugindescription";s:266:"Ez a  hitelesítő segédprogram a Moodle bejelentkezési oldalán felsorolja a beállított identitásszolgáltatókat. Ha kiválaszt egy identitásszolgáltatót, a felhasználók egy OAuth 2 szolgáltatótól származó hitelesítő adataikkal jelentkezhetnek be.";s:10:"pluginname";s:7:"OAuth 2";s:13:"alreadylinked";s:67:"Ez a külső fiók már kapcsolódik egy portálon lévő fiókhoz.";s:28:"privacy:metadata:auth_oauth2";s:20:"OAuth2 hitelesítés";s:42:"privacy:metadata:auth_oauth2:authsubsystem";s:60:"A segédprogram a hitelesítési alrendszerhez kapcsolódik.";s:41:"privacy:metadata:auth_oauth2:confirmtoken";s:22:"A megerősítő token.";s:48:"privacy:metadata:auth_oauth2:confirmtokenexpires";s:53:"A megerősítő token lejáratának időbélyegzője.";s:34:"privacy:metadata:auth_oauth2:email";s:39:"A fiókhoz kapcsolódó külső e-mail.";s:37:"privacy:metadata:auth_oauth2:issuerid";s:67:"Az OAuth2 belépéshez az OAuth2 kibocsátójának az azonosítója";s:45:"privacy:metadata:auth_oauth2:tableexplanation";s:61:"Egy felhasználó Moodle-fiókjához kapcsolt OAuth2 fiókok.";s:40:"privacy:metadata:auth_oauth2:timecreated";s:73:"Jelzi, mikor kapcsolták a felhasználói fiókot az OAuth2 belépéshez.";s:41:"privacy:metadata:auth_oauth2:timemodified";s:40:"Jelzi, mikor módosították a rekordot.";s:35:"privacy:metadata:auth_oauth2:userid";s:101:"Azon felhasználói fiók felhasználói azonosítója, amelyhez ezt a OAuth2 belépést kapcsolták.";s:41:"privacy:metadata:auth_oauth2:usermodified";s:66:"Azon felhasználó azonosítója, aki ezt a fiókot módosította,";s:37:"privacy:metadata:auth_oauth2:username";s:43:"A fiókhoz illő külső felhasználónév.";}

@@ -1,0 +1,46 @@
+s:5721:"<div class="wiki-toc"><p class="wiki-toc-title">Tartalomjegyzék</p><p class="wiki-toc-section-1 wiki-toc-section">1. <a href="#toc-1">Koncepciós terv </a><a href="edit.php?pageid=3&amp;section=Koncepci%C3%B3s+terv" class="wiki_edit_section">[szerkesztés]</a></p></div><p dir="ltr" style="text-align:left;">Vissza a <a href="https://csapat08-versenydonto.nisz.hu/mod/wiki/view.php?pageid=2">tartalomjegyzék</a>re!</p>
+<p dir="ltr" style="text-align:left;"></p>
+<p style="text-align:right;"><em style="font-size:1rem;">Vezess, vezess új létre, Lucifer!<br /></em><em style="font-size:1rem;"><em>Csatára szálltam szent eszmék után</em></em>
+</p>
+<p></p>
+<hr /><h4 style="text-align:left;">Bevezetés</h4>
+<p>A feladat értelmezése után elkezdtük felmérni, hogy milyen létező megoldások vannak a piacon, milyen keretrendszerek segíthetnek nekünk, és hogy milyen megvalósítási utat válasszunk.</p>
+<p>Ennek eredménye az lett, hogy amellett döntöttünk, hogy egy már meglévő nyílt forráskodú rendszert bővítünk ki saját megoldással, mivel így érhetjük el azt, hogy a lehető legkevesebb idő alatt, a lehető legtágabb funkció palettát nyújtsuk, és legközelebb
+   legyen a felhasználói élmény a kívánatoshoz.</p>
+<p>Célkitűzésünk egy rugalmasan bővíthető, sok integrációt támogató rendszer megalkotása volt, és ehhez a Moodle rendszert választottuk, ami hosszú ideje ismert az oktatás terén a páratlan alkalmassága és nyílt természete végett.</p>
+<p>Rendszerünk elsődleges célja így a közösség alkotás lett, és másodlagosan egy tudásmegosztó felület, harmadlagosan egy munkatér egy céges környezeten belül.</p>
+<p><img src="https://cdn.discordapp.com/attachments/409354196874297345/830681289739862046/Assets-01.png" alt="Project structure" width="1200" height="1149" class="img-fluid atto_image_button_text-bottom" /><br /></p>
+<h3><a name="toc-1"></a>Koncepciós terv <a href="edit.php?pageid=3&amp;section=Koncepci%C3%B3s+terv" class="wiki_edit_section">[szerkesztés]</a></h3>
+<p>Elképzelésünk az volt, hogy ezt elérhessük, hogy az iskolára tervezett Moodle rendszerét átalakítsuk egy élettel telibb, interaktívabb és nyitottabb rendszerré a felhasználókkal szemben. Ezért a rendszer jellemzően nyílt (vagy céges esetben engedéllyel
+   nyílt) kurzusokat tartalmaz, amikben a felhasználók akár bejelentkezés nélkül is megtalálhatják amit keresnek (akár a keresőmotorral, akár maguktól), de jellemzően hozzá is szólhatnak, ha szereznek egy tagsági fiókot.</p>
+<p>Ahhoz hogy közösséget építsünk két fontos dologra van szükség. Az egyik ilyen a közös téma, a másik ilyen a megfelelő kommunikációs lehetőség. Az előbbit úgy értük el, hogy a nyílt sztenderdű RSSen keresztül betöltjük egyes hírújságok tartalmát, és ezek
+   tartalmát egy helyen mutatjuk a felhasználóknak. Az utóbbit úgy oldjuk meg, hogy közismert fórumos megoldáson túl mindenhol rögtön személyesebb Jitsi alapú kommunikációs csatornát is nyújtunk, és így a felhasználó anélkül hogy el kell hagyja a rendszert
+   el is olvashatta a kedvenc újságától az új cikkeket, arról írhatott egy fórumbejegyzést, és még meg is vitathatta a barátaival egy videóhívásban. </p>
+<p style="text-align:left;">Ezen túl tervünk része volt az is, hogy a cég alkalmazottai kapjanak egy felületet, amin tudnak egymással projektekkel kapcsolatban biztonságosan és hatékonyan egymással kommunikálni, ezen túl információkat és adatokat megosztani. Ehhez a Moodle beépített
+   kurzus rendszerei bőven túlcsorduló választékot kínál, és így a lehető legkreatívabb és hatékonyabb módon lehet együtt működni.</p>
+<h4 style="text-align:left;">Felépítés</h4>
+<p>A felhasználói élményt úgy terveztük meg, hogy az első dolog amit a felhasználó lát, egy segítőkész felület, ami minden kérdését képes megválaszolni, és ez szolgálhasson egy "központi összekötőnek" ahonnan a tartalmak elérhetőek. </p>
+<p>Innen egy kapu szerűen érhetőek el a szoftver kiemelt funkciói:</p>
+<p></p>
+<ul><li>Fórum hálózat különböző témákhoz, amiket adminisztrátorok könnyen bővíthetnek</li>
+   <li>Hírportálhoz, ahol rögtön lehetőségük van közösségként részt is venni a történések megvitatásában</li>
+   <li>A tudásbázishoz, ami részletes leírást tartalmaz a rendszerhez, és ezen túl további hasznos tudásokat.</li>
+</ul>Regisztrált felhasználók esetén:
+<p></p>
+<p></p>
+<ul><li>Személyen blog felület, ami elérhető az internet felől</li>
+   <li>Egy privát beszélgető szoba a Jitsi segítségével</li>
+</ul>Alkalmazottak számára:
+<p></p>
+<p></p>
+<ul><li>Munkatér, amit csak a többi alkalmazott lát.</li>
+</ul><p></p>
+<h4 style="text-align:left;">Felhasználói útmutatás:</h4>
+<p>A rendszer egy belsőleg szerkesztett felhasználó útmutatóval van ellátva, ami a <a href="https://csapat08-versenydonto.nisz.hu/mod/wiki/view.php?id=6" target="_blank" rel="noreferrer noopener">következő címen</a> érhető el, vagy a főoldalon rögtön az
+   információs gomb lenyomásával.</p>
+<h4 style="text-align:left;">Teszteléshez felhasználó adatok:</h4>
+<p><strong>Felhasználónév:</strong> <br />Vendég: -<br /><span style="font-size:1rem;">Felhasználó: nisz-user<br /></span><span style="font-size:1rem;">Moderátor: nisz-admin<br /></span><span style="font-size:1rem;">Szerkesztő: nisz-moderator<br /></span>
+   <span style="font-size:1rem;">Adminisztrátor: nisz-vendeg</span>
+</p>
+<p style="text-align:left;"><strong>Jelszó (azonos): </strong>😉🐱‍👤</p><em></em>
+";

@@ -1,0 +1,1 @@
+a:4:{s:16:"glossarycategory";s:41:"{$a->glossary}: Kategória {$a->category}";s:15:"glossaryconcept";s:29:"{$a->glossary}: {$a->concept}";s:10:"filtername";s:36:"Szójegyzék automatikus kapcsolása";s:16:"privacy:metadata";s:77:"A Glossary auto-linking segédprogram semmilyen személyes adatot nem tárol.";}

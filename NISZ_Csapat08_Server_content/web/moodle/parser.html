@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <output id="sajt"></output>
+
+
+    <script>
+        const DOMPARSER = new DOMParser().parseFromString.bind(new DOMParser())
+        const urls = [
+            "https://csapat08-versenydonto.nisz.hu/proghu-rss.php",
+            "https://csapat08-versenydonto.nisz.hu/rss/file.php/71/4599e24f4d4c1b2af831ae4893dc7267/mod_forum/2/rss.xml"
+        ];
+        var frag = document.createElement("div");
+        urls.forEach((u) => {
+            const url = new URL(u);
+            fetch(u).then((res) => {
+                res.text().then((xmlTxt) => {
+                    /* Parse the RSS Feed and display the content */
+                    try {
+                        let doc = DOMPARSER(xmlTxt, "text/xml");
+                        doc.querySelectorAll('item').forEach((item) => {
+                            const link = document.createElement('a');
+                            link.href = item.querySelector("link").innerHTML;
+                            let temp = document.createElement("div");
+                            const title = document.createElement('h2');
+                            title.innerHTML = item.querySelector("title").innerHTML;
+                            link.appendChild(title);
+                            const desc = document.createElement("p");
+                            desc.innerHTML = item.querySelector("description").innerHTML;
+                            desc.innerHTML = desc.innerText;
+                            temp.appendChild(link);
+                            temp.appendChild(desc);
+                            frag.appendChild(temp);
+                        })
+                    } catch (e) {
+                        console.error('Error in parsing the feed', e)
+                    }
+                    document.querySelector('output').appendChild(frag)
+                })
+            }).catch(() => console.error('Error in fetching the RSS feed'))
+        });
+    </script>
+</body>
+
+</html>

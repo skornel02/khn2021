@@ -1,0 +1,4 @@
+a:7:{s:15:"informationtext";s:22:"Tájékoztató szöveg";s:10:"pluginname";s:8:"Leírás";s:15:"pluginname_help";s:310:"A leírás nem kérdéstípus. Mindössze választ nem igénylő szöveg megjelenítésére szolgál, hasonlóan a kurzusoldal címkéjéhez.
+A kérdés szövege próbálkozás során és ellenőrzés közben egyaránt megjelenik.
+Az esetleges általános visszajelzés csak az ellenőrzés oldalán látható.";s:16:"pluginnameadding";s:21:"Leírás hozzáadása";s:17:"pluginnameediting";s:22:"Leírás szerkesztése";s:17:"pluginnamesummary";s:222:"A leírás nem kérdés. Bizonyos utasítások, táblázatok és egyéb tartalmak teszthez való hozzáadására szolgál.
+A kurzusoldal címkéjéhez hasonlóan tartalom kurzusoldalba való beillesztésére használható.";s:16:"privacy:metadata";s:81:"A Description question type segédprogram semmilyen személyes adatot nem tárol.";}
